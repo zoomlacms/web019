@@ -1,0 +1,92 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+</style>
+</head>
+<body>
+
+<div class="dai_li">
+<div class="dai_li_tit">
+<span>{$GetExcel(tables,生成Excel表格文件)$}</span>
+
+<form action="/class_{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}/NodePage.aspx" method="get">
+按日期筛选：
+<select name="year" id="years">
+<option value="2014">2014年</option>
+<option value="2015">2015年</option>
+<option value="2016">2016年</option>
+<option value="2017">2017年</option>
+<option value="2018">2018年</option>
+<option value="2019">2019年</option>
+<option value="2020">2020年</option>
+<option value="2021">2021年</option>
+<option value="2022">2022年</option>
+<option value="2023">2023年</option>
+<option value="2024">2024年</option>
+<option value="2025">2025年</option>
+<option value="2026">2026年</option>
+<option value="2027">2027年</option>
+<option value="2028">2028年</option>
+<option value="2029">2029年</option>
+<option value="2030">2030年</option>
+</select>
+<select name="month" id="month">
+<option value="01">1月</option>
+<option value="02">2月</option>
+<option value="03">3月</option>
+<option value="04">4月</option>
+<option value="05">5月</option>
+<option value="06">6月</option>
+<option value="07">7月</option>
+<option value="08">8月</option>
+<option value="09">9月</option>
+<option value="10">10月</option>
+<option value="11">11月</option>
+<option value="12">12月</option>
+</select>
+<input type="hidden" value="{$GetRequest(t)$}" name="t">
+<input type="hidden" value="{$GetRequest(t1)$}" name="t1">
+<input type="submit" value="提交">
+</form>
+</div>
+
+<div class="dai_table">
+<table width="100%" id="tables">
+<tr>
+<th>代理商名称 </th>
+<th>推广业绩数值 </th>
+<th>提成金额 </th>
+<th>商家续费提成金额 </th>
+<th>结算</th>
+</tr>
+ {ZL.Label id="输出推广业绩统计列表_逐月" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" ShowNum="10" /}
+ </table>
+<span style="display:none">
+{ZL.Label id="统计提成金额_逐月" NodeID="{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/}" UserName="烤鸡烤鸭" TiCheng="2" Isxu="是" /}
+</span>
+
+</div>
+ 
+</div>
+<script>
+var myDate ='{$GetRequest(month)$}';
+var years='{$GetRequest(year)$}';
+ document.getElementById("month").value=myDate;
+document.getElementById("years").value=years;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>724</LabelID>
+    <LabelName>输出金牌推荐榜列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>黄页</LabelCate>
+    <LabelDesc />
+    <LabelParam>TitleNum,30,1,标题数目|ShowNum,10,1,显示数目|ClassName,30,1,列数|Bie,1,1,推荐类别</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_CommonModel left join {table1}.dbo.ZL_Page_xm on {table1}.dbo.ZL_CommonModel.ItemID={table1}.dbo.ZL_Page_xm.ID</LabelTable>
+    <LabelField>{table1}.dbo.ZL_CommonModel.GeneralID,{table1}.dbo.ZL_CommonModel.NodeID,{table1}.dbo.ZL_CommonModel.Title,{table1}.dbo.ZL_CommonModel.TitleStyle,pic,synopsis,Inputer</LabelField>
+    <LabelWhere>ZL_CommonModel.Status=99 And ZL_CommonModel.TableName='ZL_Page_xm'
+ And  charindex('@Bie',tjlb)&gt;0 
+ </LabelWhere>
+    <LabelOrder>{table1}.dbo.ZL_CommonModel.OrderID DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;div class="@ClassName"&gt;
+&lt;div class="list-inline"&gt;
+&lt;div  class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding0"&gt;
+&lt;a href="/Page/Pagecontent.aspx?Pageid={ZL.Label id="根据用户名得到黄页ID" UserName="{Field="Inputer"/}" /}&amp;itemid={Field="GeneralID"/}" title="{Field="Title"/}" target="_blank"&gt;
+&lt;img src="{ZL:GetPicUrl({Field="pic"/})/}"  class="img-responsive"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding0 text-left"&gt;
+&lt;ul class="padding0 "&gt;
+&lt;li&gt;&lt;a href="/Page/Pagecontent.aspx?Pageid={ZL.Label id="根据用户名得到黄页ID" UserName="{Field="Inputer"/}" /}&amp;itemid={Field="GeneralID"/}" title="{Field="Title"/}" target="_blank"&gt;查看商品&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Page/Pagecontent.aspx?Pageid={ZL.Label id="根据用户名得到黄页ID" UserName="{Field="Inputer"/}" /}&amp;itemid={Field="GeneralID"/}" title="{Field="Title"/}" target="_blank"&gt;商家详情&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;font color="#F00"&gt;★★★★★&lt;/font&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;div class="zxs"&gt;
+&lt;a href="/Page/Pagecontent.aspx?Pageid={ZL.Label id="根据用户名得到黄页ID" UserName="{Field="Inputer"/}" /}&amp;itemid={Field="GeneralID"/}" title="{Field="Title"/}" target="_blank"&gt;
+{ZL:CutText({Field="Title"/},@TitleNum,)/}
+&lt;/a&gt;
+&lt;ul class=" left"&gt;
+&lt;li&gt;&lt;a href="/Page/Pagecontent.aspx?Pageid={ZL.Label id="根据用户名得到黄页ID" UserName="{Field="Inputer"/}" /}&amp;itemid={Field="GeneralID"/}" title="{Field="Title"/}" target="_blank" &gt;我要购买&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Page/Pagecontent.aspx?Pageid={ZL.Label id="根据用户名得到黄页ID" UserName="{Field="Inputer"/}" /}&amp;itemid={Field="GeneralID"/}" title="{Field="Title"/}" target="_blank"&gt;进入店铺&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+{/Repeate}
+
+
+
+
+
+
+
+
+
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

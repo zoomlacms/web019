@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="api_uc, App_Web_xm24sgr2" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

@@ -1,0 +1,734 @@
+﻿<!doctype html>
+<html><head>
+<meta charset="utf-8">
+ <meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/{$CssDir/}images/win8_symbol_140x140.png"/>
+<title>欢迎访问{$SiteTitle/}_首页</title>
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<script src="{$CssDir/}js/scrollDoor.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript"> 
+window.onload = function(){//页面加载
+var SDmodel = new scrollDoor();
+SDmodel.sd(["n01","n02","n03","n04","n05","n06"],["v01","v02","v03","v04","v05","v06"],"sd01","sd02"); 
+SDmodel.sd(["m00","m01","m02","m03","m04","m05"],["c00","c01","c02","c03","c04","c05"],"sd01","sd02");
+//SDmodel.sd(["h00","h01","h02","h03","h04","h05"],["w00","w01","w02","w03","w04","w05"],"sd01","sd02");
+//SDmodel.sd(["t00","t01","t02","t03","t04"],["s00","s01","s02","s03","s04"],"sd01","sd02");
+//SDmodel.sd(["x00","x01","x02","x03","x04","x05"],["y00","y01","y02","y03","y04","y05"],"sd01","sd02");
+//SDmodel.sd(["dn00","dn01","dn02","dn03","dn04","dn05"],["dw0","dw1","dw2","dw3","dw4","dw5"],"sd01","sd02"); 
+
+}
+//搜索自动隐藏
+</script>
+<style>#bs-example .home a{ color:#FF0;}</style>
+</head>
+<body> 
+<!--top-->
+<div class="top_box">
+<div class="container padding0">
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  pull-left">
+<ul class="top_li">
+<li><a href="/user/" target="_blank">登录</a><span class="line">|</span></li>  
+<li><a href="/User/Register.aspx" target="_blank">注册会员</a><span class="line">|</span></li> 
+<li><a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank">创业资讯</a><span class="line">|</span></li> 
+<li><a href="#">展会网</a><span class="line">|</span></li> 
+<li class="dropdown"><a href="#" class="dropdown-toggle dh" data-toggle="dropdown">行业频道 <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank">新闻中心</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank">创业资讯</a></li>
+</ul></li>
+
+</ul> 
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " >
+<ul class="top_li2">
+<li><a  href="#"><img src="{$CssDir/}images/top-wx.jpg" alt="" class="img-responsive" /></a></li>
+<li><a href="http://weibo.com/zoomlacms" target="_blank" title="收听我们的新浪微博"><img src="{$CssDir/}images/sina.jpg" alt="收听我们的新浪微博" class="img-responsive"></a></li>
+<li><a href="http://t.qq.com/wwwwzf" target="_blank" title="收听我们的腾讯微博"><img src="{$CssDir/}images/tenxun.jpg" alt="收听我们的腾讯微博" class="img-responsive"></a></li>
+<li class="jion">|<a href="javascript:window.external.addFavorite('{$SiteURL/}','{$SiteName/}');">加入收藏夹</a></li> </ul>
+</div>
+</div>
+</div><!--padding5 end -->
+</div><!--top 结束-->
+<div class="nav_bg">
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 padding0 ">
+<div id="logo">
+<a href="/"><img src="{$CssDir/}images/logo.gif" alt="" class="img-responsive" /></a>
+</div>
+</div>
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 padding0">
+<div class="nav_t"  style="padding-top:10px;">
+<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+<div class="nav-list">
+<span class="search">热门搜索:</span>
+<ul>
+<li><a href="#">服装</a>|</li>
+<li><a href="#">小吃</a>|</li>
+<li><a href="#">壁纸</a>|</li>
+<li><a href="#">视力保健</a>|</li>
+<li><a href="#">白酒</a></li>
+</ul>
+</div><!--nav-list end-->
+<div class="search_box pull-left">
+<form action="/search/SearchList.aspx " method="get">
+<div class="input-group">
+<input name="keyword" type="text" value="请输入关键词" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:100%;" />
+<span class="input-group-btn">
+<input type="submit" name="ButtonSo" value="搜索" id="ButtonSo" class="btn btn-danger" />
+</span>
+</div>
+</form>
+</div><!--search_box end -->
+</div><!--col-xs-12 end -->
+<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 padding0">
+<ul class="ad_li"><li><a href="#"><img src="{$CssDir/}images/ad1.jpg" alt="" class="img-responsive" /></a></li>
+<li><a href="#"><img src="{$CssDir/}images/ad2.jpg" alt="" class="img-responsive" /></a></li>
+<li><a href="#"><img src="{$CssDir/}images/ad3.jpg" alt="" class="img-responsive" /></a></li>
+<div class="clearfix"></div>
+</ul>
+</div>
+<div class="clearfix"></div>
+</div>
+
+<div class="nav_b">
+<nav class="navbar navbar-default" role="navigation">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example">
+<div id="menu" class="menu">
+<ul class="nav navbar-nav">
+<li class="home"><a href="/">首 页</a></li>
+<li class="meuses2"><a href="{ZL:GetNodeLinkUrl(2)/}?pid=574&GName={$GetUrlencode(服饰鞋包)$}" target="_blank">服饰鞋包</a></li>
+<li class="meuses3"><a href="{ZL:GetNodeLinkUrl(3)/}?pid=584&GName={$GetUrlencode(特色餐饮)$}" target="_blank">特色餐饮</a></li>
+<li class="meuses4"><a href="{ZL:GetNodeLinkUrl(4)/}?pid=593&GName={$GetUrlencode(美容养生)$}" target="_blank">美容养生</a></li>
+<li class="meuses5"><a href="{ZL:GetNodeLinkUrl(5)/}?pid=602&GName={$GetUrlencode(饰品玩具)$}" target="_blank">饰品玩具</a></li>
+<li class="meuses6"><a href="{ZL:GetNodeLinkUrl(6)/}?pid=618&GName={$GetUrlencode(家居装饰)$}" target="_blank">家居装饰</a></li>
+<li class="meuses7"><a href="{ZL:GetNodeLinkUrl(7)/}?pid=618&GName={$GetUrlencode(名酒代理)$}" target="_blank">名酒代理</a></li>
+<li class="meuse13"><a href="{ZL:GetNodeLinkUrl(13)/}?pid=625&GName={$GetUrlencode(新锐连锁)$}" target="_blank">新锐连锁</a></li>
+<li class="meuses8"><a href="{ZL:GetNodeLinkUrl(8)/}?pid=634&GName={$GetUrlencode(网络创业)$}" target="_blank">网络创业</a></li>
+<li class="meuses9"><a href="{ZL:GetNodeLinkUrl(9)/}" target="_blank">视频专区</a></li>
+</ul>
+</div>
+</div><!-- /.navbar-collapse -->
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div> <!-- nav_bg end-->
+
+<div class="container">
+<div class="row" >
+<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding5 leftBar"  >
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 left-bg padding0 margin0 text-center"  >
+知名品牌 招商首发
+</div>
+<ul class="padding0 left-list" >
+{ZL.Label id="输出黄页logo名称信息列表" Titlenum="30" ShowNum="30" /}
+</ul>
+
+<div class=" padding0 text-center">
+<a href="#"><img src="{$CssDir/}images/left-bn1.jpg" class="img-responsive" ></a>
+</div>
+<ul class="padding0 left-list">
+{ZL.Label id="输出黄页logo名称信息列表_推荐" Titlenum="30" ShowNum="10" /}
+</ul>
+<div class="padding0 text-center">
+<a href="#"><img src="{$CssDir/}images/left-bn2.jpg" class="img-responsive"></a>
+<a href="#"><img src="{$CssDir/}images/left-bn3.jpg" class="img-responsive marginimg"></a>
+<a href="#"><img src="{$CssDir/}images/left-bn4.jpg" class="img-responsive"></a>
+</div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 padding5 content-main " >
+<ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12   padding0 margin0" >
+{ZL.Label id="输出黄页分类_无分页" Titlenum="18" ShowNum="24" /}
+</ul>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0 rightBar"  >
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 right1" >
+<div class="r1">
+招商活动
+</div>
+<ul>
+{ZL.Label id="输出首页招商活动列表" NodeID="14" TitleNum="50" ShowNum="2" synNum="100" /} 
+<div class="clearfix"></div>
+</ul>
+</div>
+<div class="right2">
+<ul>
+<li class="r1"><a href="#">票务网</a></li>
+<li class="r2"><a href="#">养生那些事</a></li>
+<li class="r3"><a href="#">商机“庙”不可言</a></li>
+<li class="r4"><a href="#">面食</a></li>
+</ul>
+</div>
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 right3 " >
+<ul class="  col-lg-10 col-md-10 col-sm-10 col-xs-10  left" >
+{ZL.Label id="输出制定节点信息_带节点名" NodeID="1" TitleNum="20" ShowNum="3" /}
+</ul>
+<strong class=" col-lg-2 col-md-2 col-sm-2 col-xs-2 padding0" >推<br/>荐</strong>
+</div>
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 right4 text-center">
+<a href="#"><img src="{$CssDir/}images/right3.jpg" width="100%"></a>
+</div>
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 right5">
+<a href="#">新年有商机 | 节日契机促消费</a>
+</div>
+</div>
+</div>  <!--row-->
+</div><!--  container-->
+<div class="container">
+<div class="row">
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 nav1" >        
+<ul class="padding0 nav1-list">
+<li  id="n01" class="sd01"><a href="#">金牌推荐榜</a></li>
+<li  id="n02" class="sd02"><a href="#">知名品牌榜</a></li>
+<li  id="n03" class="sd02"><a href="#">国际名品榜</a></li>
+<li  id="n04" class="sd02"><a href="#">创业首选榜</a></li>
+<li  id="n05" class="sd02"><a href="#">时尚淘宝金榜</a></li>
+<li  id="n06" class="sd02"><a href="#">新厅创富榜</a></li>
+<div class="clearfix"></div>
+</ul>
+</div>
+
+<div class=" padding0 content2" id="v01">
+ {ZL.Label id="输出金牌推荐榜列表" TitleNum="26" ShowNum="18" ClassName="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0" Bie="金牌推荐榜" /} 
+ </div>
+<div class=" padding0 content2 hidd"  id="v02">
+ {ZL.Label id="输出金牌推荐榜列表" TitleNum="26" ShowNum="18" ClassName="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0" Bie="知名品牌榜" /} 
+ </div>
+
+<div class=" padding0 content2 hidd"  id="v03">
+ {ZL.Label id="输出金牌推荐榜列表" TitleNum="26" ShowNum="18" ClassName="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0" Bie="国际名品榜" /} 
+</div>
+
+<div class=" padding0 content2 hidd"  id="v04">
+ {ZL.Label id="输出金牌推荐榜列表" TitleNum="26" ShowNum="18" ClassName="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0" Bie="创业首选榜" /} 
+</div>
+
+<div class=" padding0 content2 hidd"  id="v05">
+ {ZL.Label id="输出金牌推荐榜列表" TitleNum="26" ShowNum="18" ClassName="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0" Bie="时尚淘宝金榜" /} 
+</div>
+
+<div class=" padding0 content2 hidd"  id="v06">
+ {ZL.Label id="输出金牌推荐榜列表" TitleNum="26" ShowNum="18" ClassName="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0" Bie="新厅创富榜" /} 
+ </div>
+</div>
+</div><!--container end -->
+ 
+ <div class="container">
+<div class="row">
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 nav1" >        
+ <ul class=" padding0 nav1-list">
+<li class="sd01" id="m00"><a href="{ZL:GetNodeListUrl(2)/}?GName={$GetUrlencode(特色餐饮)$}">特色餐饮</a></li>
+{ZL.Label id="输出一级字典列表" NodeID="2" ShowNum="5" cate="12" pid="584"  ClassName="m0"/}
+<div class="clearfix"></div>
+ </ul>
+</div>
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 content3">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c3-left ">
+<ul class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0" id="c00">
+ {ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="特色餐饮" /}
+  </ul>
+  
+  <ul class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 hidd" id="c01">
+ {ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="特色小吃" /}
+
+ </ul> 
+   <ul class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 hidd" id="c02">
+ {ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="冷饮饮料" /}
+ </ul> 
+  <ul class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 hidd" id="c03">
+ {ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="传统食品" /}
+
+ </ul> 
+ 
+  <ul class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 hidd" id="c04">
+ {ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="韩式餐饮" /}
+ </ul> 
+  
+  <ul class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 hidd" id="c05">
+ {ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="韩式餐饮" /}
+ </ul>
+ </div>   <!--left content2-->
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 c3-right">
+<div  class="c3two">
+<ul class="padding0 c3-one ">            
+
+{ZL.Label id="输出指定节点标题_无时间_点击数" NodeID="1" TitleNum="30" ShowNum="10" /}
+</ul>	
+</div><!--c3two end -->
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 nav2" >        
+ <ul class="padding0 nav2-list ">
+<li class="nav1-bg sd01" id="h00"><a href="{ZL:GetNodeListUrl(2)/}?GName={$GetUrlencode(家居装饰)$}">家居装饰</a></li>
+{ZL.Label id="输出一级字典列表" NodeID="2" ShowNum="5" cate="12" pid="607"  ClassName="h0"/}
+<div class="clearfix"></div>
+  </ul>
+</div>  
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 content4" >
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left " id="w00">
+<div class="list-left">
+<ul class="padding0" >
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="20" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="家居装饰" /}
+  </ul>
+  <div class="clearfix"></div>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="家居装饰" /}
+</ul>
+</div><!--c4-list end -->
+</div> 
+
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left hidd" id="w01">
+<div class="list-left">
+<ul class="padding0" >
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="20" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="家具" /}
+  </ul>
+  <div class="clearfix"></div>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul> 
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="家具" /}
+</ul>
+</div><!--c4-list end -->
+</div>
+
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left hidd" id="w02">
+<div class="list-left">
+<ul class="padding0 " > 
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="20" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="灯饰" /}
+  </ul>
+  <div class="clearfix"></div>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul> 
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="灯饰" /}
+</ul>
+</div><!--c4-list end -->
+</div>
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left hidd" id="w03">
+<div class="list-left">
+<ul class="padding0 " > 
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="20" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="衣柜" /}
+  </ul>
+  <div class="clearfix"></div>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul> 
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="衣柜" /}
+</ul>
+</div><!--c4-list end -->
+</div>
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left hidd" id="w04">
+<div class="list-left">
+<ul class="padding0 " > 
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="20" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="家居饰品" /}
+  </ul>
+  <div class="clearfix"></div>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul> 
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="家居饰品" /}
+</ul>
+</div><!--c4-list end -->
+</div>
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left hidd" id="w05">
+<div class="list-left">
+<ul class="padding0 " > 
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="20" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="家电" /}
+  </ul>
+  <div class="clearfix"></div>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>  
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="家电" /}
+</ul>
+</div><!--c4-list end -->
+</div>
+ 	
+
+
+
+<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 c4-right">
+<div class="topic"><strong>美容养生</strong></div><!--topic end -->
+<div class="img_li">
+<ul>
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="20" ShowNum="4" ClassName="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0" GName="美容养生" /}
+ </ul><div class="clearfix"></div></div><!-- img_li end-->
+<div class="list">
+<ul>
+
+{ZL.Label id="输出黄页项目标题列表" TitleNum="18" ShowNum="4" ClassName="col-lg-6 col-md-6 col-sm-12 col-xs-12" GName="美容养生" /}
+
+</ul><div class="clearfix"></div>
+</div><!--list end -->
+</div><!-- -->
+</div>  
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 nav4" >        
+ 
+<ul class="padding0 nav4-list">
+<li class="sd01" id="t00"><a href="{ZL:GetNodeListUrl(2)/}?GName={$GetUrlencode(饰品玩具)$}">饰品玩具</a></li>
+{ZL.Label id="输出一级字典列表" NodeID="2" ShowNum="4" cate="12" pid="602"   ClassName="t0" /}
+
+<div class="clearfix"></div>
+ </ul>
+</div>
+
+<div class="content5 padding0" >
+<ul class="list-inline padding0" id="s00">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="24" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-6 col-xs-12 padding0" GName="饰品玩具" /}
+ </ul>
+ 
+ <ul class="list-inline padding0 hidd" id="s01">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="24" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-6 col-xs-12 padding0" GName="儿童" /}
+
+ </ul>
+  <ul class="list-inline padding0 hidd" id="s02">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="24" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-6 col-xs-12 padding0" GName="乐园" /}
+ </ul>
+   <ul class="list-inline padding0 hidd" id="s03">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="24" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-6 col-xs-12 padding0" GName="玩具" /}
+ </ul>
+    <ul class="list-inline padding0 hidd" id="s04">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="24" ShowNum="12" ClassName="col-lg-2 col-md-2 col-sm-6 col-xs-12 padding0" GName="其它" /}
+ </ul>
+ 
+ 
+</div>
+</div>
+</div>
+ 
+
+<div class="container">
+<div class="row">
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 nav3">        
+ <ul class="padding0 nav3-list">
+<li class="sd01" id="x00"><a href="{ZL:GetNodeListUrl(2)/}?GName={$GetUrlencode(服饰鞋包)$}">服饰鞋包</a></li>
+{ZL.Label id="输出一级字典列表" NodeID="2" ShowNum="5" cate="12" pid="574"  ClassName="x0" /}
+<div class="clearfix"></div>
+ </ul>
+</div>
+
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 content4" >
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left "  id="y00">
+<div class="list-left">
+<ul class="padding0">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="服饰鞋包" /}
+ </ul>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="服饰鞋包" /}
+ </ul>
+</div><!--c4-list end -->
+</div> 
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left  hidd"  id="y01">
+<div class="list-left">
+<ul class="padding0">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="男装" /}
+ </ul>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="男装" /}
+ </ul>
+</div><!--c4-list end -->
+</div>
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left  hidd"  id="y02">
+<div class="list-left">
+<ul class="padding0">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="女装" /}
+ </ul>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="女装" /}
+ </ul>
+</div><!--c4-list end -->
+</div>
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left  hidd"  id="y03">
+<div class="list-left">
+<ul class="padding0">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="童装" /}
+ </ul>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="童装" /}
+ </ul>
+</div><!--c4-list end -->
+</div>
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left  hidd"  id="y04">
+<div class="list-left">
+<ul class="padding0">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="鞋袜" /}
+ </ul>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="鞋袜" /}
+ </ul>
+</div><!--c4-list end -->
+</div>
+
+
+<div class=" col-lg-9 col-md-9 col-sm-9 col-xs-12 padding0 c4-left  hidd"  id="y05">
+<div class="list-left">
+<ul class="padding0">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-3 col-xs-12 padding0" GName="内衣" /}
+ </ul>
+</div><!-- -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c4-list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="40" ShowNum="12" ClassName="col-lg-4 col-md-4 col-sm-6 col-xs-12" GName="内衣" /}
+ </ul>
+</div><!--c4-list end -->
+</div>
+
+
+<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 c4-right">
+<div class="topic"><strong>名酒代理</strong></div><!--topic end -->
+<div class="img_li">
+<ul>
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="16" ShowNum="4" ClassName="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0" GName="名酒代理" /}
+</ul><div class="clearfix"></div></div><!-- img_li end-->
+<div class="list">
+<ul>
+{ZL.Label id="输出黄页项目标题列表" TitleNum="20" ShowNum="4" ClassName="col-lg-6 col-md-6 col-sm-12 col-xs-12" GName="名酒代理" /}
+</ul><div class="clearfix"></div>
+</div><!--list end -->
+</div><!-- -->
+</div>
+
+</div>
+</div><!-- -->
+
+<div class="container">
+<div class="row">
+<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 padding0 nav4" >        
+ 
+<ul class=" col-lg-10 padding0 nav4-list ">
+<li class=" sd01" id="dn00"><a href="{ZL:GetNodeListUrl(2)/}?GName={$GetUrlencode(网络创业)$}">网络创业</a></li>
+{ZL.Label id="输出一级字典列表" NodeID="2" ShowNum="5" cate="12" pid="634" ClassName="dn0"  /}
+<div class="clearfix"></div>
+</ul>
+</div>
+
+<div class="content5 padding0" >
+<ul class="list-inline padding0" id="dw0">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-4 col-xs-6" GName="网络创业" /}
+ </ul>
+ 
+ <ul class="list-inline padding0 hidd" id="dw1">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-4 col-xs-6" GName="电子商务" /}
+ </ul>
+ 
+  <ul class="list-inline padding0 hidd" id="dw2">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-4 col-xs-6" GName="网络游戏" /}
+ </ul>
+ 
+  <ul class="list-inline padding0 hidd" id="dw3">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-4 col-xs-6" GName="网络专题" /}
+ </ul>
+ 
+  <ul class="list-inline padding0 hidd" id="dw4">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-4 col-xs-6" GName="自助建站" /}
+ </ul>
+ 
+  <ul class="list-inline padding0 hidd" id="dw5">
+{ZL.Label id="输出黄页推荐项目信息列表" TitleNum="18" ShowNum="6" ClassName="col-lg-2 col-md-2 col-sm-4 col-xs-6" GName="网站代理" /}
+ </ul>
+ 
+</div>
+</div>
+</div>
+
+ 
+<div class="container padding0">
+<div class="five_bot">
+<div class="five_bot_tit"><strong>轻松创业5步走</strong></div>
+<div class="five_bot_li">
+<ul>
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 right_bg">
+<div class="b_img">
+<a href="/user/">
+<img src="{$CssDir/}images/b1.jpg" alt="登录U8商道" class="img-responsive"  />
+</a>
+</div>
+<h3><strong><a href="/user/">登录U8商道</a></strong></h3>
+<p>
+输入www.u8u88.com<br/>登录U8商道网
+</p>
+</li>
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 right_bg">
+<div class="b_img">
+<a href="#">
+<img src="{$CssDir/}images/b2.jpg" alt="寻找项目" class="img-responsive"  />
+</a>
+</div>
+<h3><strong><a href="#">寻找项目</a></strong></h3>
+<p>
+分类查找，热门项目查找<br/>
+网站精品推荐找到意向品牌
+ </p>
+</li>
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 right_bg">
+<div class="b_img">
+<a href="/guest/">
+<img src="{$CssDir/}images/b3.jpg" alt="留言咨询" class="img-responsive"  />
+</a>
+</div>
+<h3><strong><a href="/guest/">留言咨询</a></strong></h3>
+<p>
+对项目进行留言、电话咨询<br/>
+在线咨询与品牌取得联系
+</p>
+</li>
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12 right_bg">
+<div class="b_img">
+<a href="#">
+<img src="{$CssDir/}images/b4.jpg" alt="电话回访" class="img-responsive"  />
+</a>
+</div>
+<h3><strong><a href="#">电话回访</a></strong></h3>
+<p>
+等待品牌给您回电、邮寄资料<br/>
+画册、邮件信息反馈</p>
+</li>
+
+<li class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+<div class="b_img">
+<a href="#">
+<img src="{$CssDir/}images/b5.jpg" alt="成功合作" class="img-responsive"  />
+</a>
+</div>
+<h3><strong><a href="#">成功合作</a></strong></h3>
+<p>
+实地考察、店面装修、技术<br/>
+培训、成功开店、后续支持
+</p>
+</li>
+</ul>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+
+<div class="foot">
+<div class="container padding0">
+<div class="foot_u8">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+<div class="u_tit"><strong>关于U8商道</strong></div>
+<div class="u_li">
+<ul>
+<li><a href="{ZL:GetInfoUrl(64)/}">关于U8商道</a></li>
+<li><a href="{ZL:GetInfoUrl(69)/}">法律声明</a></li>
+<li><a href="{ZL:GetInfoUrl(67)/}">联系我们</a></li>
+<li><a href="{ZL:GetInfoUrl(65)/}">广告服务</a></li>
+<li><a href="{ZL:GetInfoUrl(66)/}">诚聘英才</a></li>
+<li><a href="{ZL:GetInfoUrl(68)/}">网站地图</a></li>
+<li><a href="/guest/">查看留言</a></li>
+<li><a href="{ZL:GetInfoUrl(65)/}">广告报价</a></li>
+<li><a href="/guest/">建议反馈</a></li>
+</ul>
+ </div>
+ </div> 
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+<div class="u_tit text-center"><strong>U8商道旗下网站</strong></div>
+<div class="u_imgs">
+<ul> 
+<li><a href="/"><img src="{$CssDir/}images/logo.gif" alt="" class="img-responsive" /></a></li>
+<li><a href="http://www.1ytgw.com/" target="_blank"><img src="{$CssDir/}images/logo_t.gif" alt="" class="img-responsive" /></a></li>
+</ul>
+ </div>
+
+</div> 
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+<div class="u_tit"><strong>商机智取 成功有道</strong></div>
+<div class="u_p">
+<p>
+想自己做生意？想做加盟商？想做代理商？<br/>
+想投资开店？想做连锁经营？上U8商道网找<br/>
+优质赚钱项目 一网搞定
+</p> 
+</div>
+</div>
+<div class="clearfix"></div> 
+</div>
+<div class="frend_link_tit"><strong>友情链接</strong></div>
+<div class="frend_link_li">
+<ul>
+{ZL.Label id="友情链接列表" ShowNum="10" NodeID="11" /}
+</ul>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+  
+ <!--botttom_box end -->
+ <div class="copyright_bg">
+ <div class="copyright container">
+{$Copyright/}
+</div><!--copyright end -->
+</div>
+ <div class="clearfix"></div>
+<div class="footercos">
+<p><a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005072000536"><img src="{$CssDir/}images/foot1.png"> </a>
+<a target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=2011040700100007762&ct=df&pa=155777"><img src="{$CssDir/}images/foot6.png"> </a>
+<a target="_blank" href="https://search.szfw.org/cert/l/CX20121224002111002168"><img src="{$CssDir/}images/foot7.png"></a></p>
+</div><!--footercos end -->
+
+
+<div class="fix" style="background:#fff;">
+<div class="fix_top">栏目导航</div>
+<div class="fix_li">
+<ul>
+{ZL.Label id="输出一级字典" NodeID="2" ShowNum="20" cate="12" pid="0" /}
+</ul>
+</div>
+</div>
+
+ </body>
+</html>

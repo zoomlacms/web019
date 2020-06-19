@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>782</LabelID>
+    <LabelName>输出邀请好友列表_分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_User</LabelTable>
+    <LabelField>JoinTime,ParentUserID,UserName,UserID,state</LabelField>
+    <LabelWhere>ParentUserID='{ZL:GetuserID()/}'  </LabelWhere>
+    <LabelOrder>JoinTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;tr&gt;&lt;td&gt;{Field="UserName"/}&lt;/td&gt;&lt;td&gt;{ZL:FormatDate({Field="JoinTime"/},yyyy-MM-dd)/}&lt;/td&gt;&lt;td&gt; {ZL.Label id="根据用户ID输出用户名" Userid="{Field="ParentUserID"/}" /} &lt;/td&gt;&lt;td&gt; &lt;script&gt;
+var state='{Field="state"/}';
+if(state=='0'){
+document.write('0元');
+}
+else{
+document.write('0.2元');
+ }
+&lt;/script&gt;&lt;/td&gt;&lt;/tr&gt;
+{/Repeate}
+ &lt;tr&gt;&lt;td colspan="4"&gt; {ZL.Page/}&lt;/td&gt;&lt;/tr&gt;
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

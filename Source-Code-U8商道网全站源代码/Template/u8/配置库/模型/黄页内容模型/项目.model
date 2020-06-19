@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>26</ModelID>
+    <ModelName>项目</ModelName>
+    <Description />
+    <TableName>ZL_Page_xm</TableName>
+    <ItemName>项目</ItemName>
+    <ItemUnit>个</ItemUnit>
+    <ItemIcon>Default.gif</ItemIcon>
+    <ModelType>4</ModelType>
+    <ContentModule>内容页/默认项目内容页.html</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>false</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>1</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail>0</Thumbnail>
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

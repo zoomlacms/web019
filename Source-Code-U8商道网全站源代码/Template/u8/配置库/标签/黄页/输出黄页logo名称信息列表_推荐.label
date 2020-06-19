@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>717</LabelID>
+    <LabelName>输出黄页logo名称信息列表_推荐</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>黄页</LabelCate>
+    <LabelDesc />
+    <LabelParam>Titlenum,30,1,标题数目|ShowNum,10,1,显示数目</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_PageReg</LabelTable>
+    <LabelField>CompanyName,id</LabelField>
+    <LabelWhere>Recommendation=1 And Status=99</LabelWhere>
+    <LabelOrder>CreationTime DESC</LabelOrder>
+    <LabelContent>{Repeate}&lt;li&gt;&lt;a href="/Page/Default.aspx?pageid={Field="id"/}" target="_blank"&gt;{ZL:CutText({Field="CompanyName"/},@Titlenum,)/}&lt;/li&gt;{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

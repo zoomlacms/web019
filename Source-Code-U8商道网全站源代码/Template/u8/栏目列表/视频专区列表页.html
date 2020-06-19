@@ -1,0 +1,84 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+</style>
+</head>
+<body>
+{ZL.Label id="全站头部"/} 
+<!--主体开始-->
+<div id="v_Main" class="container">
+<div id="v_Left" class="col-lg-2 col-md-2 col-sm-2 col-xs-12 padding5">
+<div class="video col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="v_bg">视频专区</div>
+</div><!--video end-->
+<div class="v_type">
+<ul>
+<strong>项目分类</strong>
+<li class="active"><a href="#">全部</a></li>
+<li><a href="#">环保材料</a></li>
+<li><a href="#">节能设备</a></li>
+<li><a href="#">专利技术</a></li>
+<li><a href="#">室内排毒</a></li>
+<li><a href="#">汽车养护</a></li>
+<li><a href="#">产品代理</a></li>
+</ul>
+</div><!--v_type end-->
+</div><!--v_Left end-->
+
+
+<div class="content_a" style="margin-top:10px;"></div>
+
+
+<div id="v_Right" class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+<ul class="mySites padding0">
+<div class="Recommend_list"><p>您现在正在浏览的：<a href="/">首页</a> > {SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}</p></div>
+</ul>
+
+<div class="row">
+<ul class="v_shop">
+{ZL.Label id="输出视频列表_分页" NodeID="9" TitieNum="30" ShowNum="8" /}
+</ul><!--v_shop end-->
+</div>
+</div><!--v_Right end-->
+</div><!--videoMain end-->
+
+
+
+<div class="content_a" style="margin-top:10px;"></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 myContent_rbox  padding0">
+<div style=" margin-left:90px;">
+<div style="margin-right:90px;">
+<div class="Recommend">
+<div class="Recommend_list"><strong>根据浏览猜您喜欢</strong></div><!--topic end -->
+<div class="project_li">
+<ul class="padding0" align="center" >  
+{ZL.Label id="输出黄页分类_带新推荐" Titlenum="25" ShowNum="12" synnum="26" /}
+</ul><div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div><!--Recommend_li end -->
+</div><!--Recommend end -->
+
+
+
+
+<div style="clear:both;"></div>
+{ZL.Label id="全站底部"/}<div class="clear"></div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+</body>
+</html>

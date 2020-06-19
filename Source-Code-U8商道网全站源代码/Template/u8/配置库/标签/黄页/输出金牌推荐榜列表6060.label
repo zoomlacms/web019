@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>796</LabelID>
+    <LabelName>输出金牌推荐榜列表6060</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>黄页</LabelCate>
+    <LabelDesc />
+    <LabelParam>TitleNum,30,1,标题数目|ShowNum,10,1,显示数目|ClassName,30,1,列数|Bie,1,1,推荐类别</LabelParam>
+    <LabelTable>(select {table1}.dbo.ZL_CommonModel.GeneralID,{table1}.dbo.ZL_CommonModel.NodeID,{table1}.dbo.ZL_CommonModel.OrderID,{table1}.dbo.ZL_CommonModel.Title,{table1}.dbo.ZL_CommonModel.TitleStyle,pic,synopsis,Inputer,{table1}.dbo.ZL_Page_xm.tjlb from {table1}.dbo.ZL_CommonModel left join {table1}.dbo.ZL_Page_xm on {table1}.dbo.ZL_CommonModel.ItemID={table1}.dbo.ZL_Page_xm.ID
+where ZL_CommonModel.Status=99)as a left join {table1}.dbo.ZL_PageReg  as b on a.inputer=b.UserName</LabelTable>
+    <LabelField>a.*,b.ID</LabelField>
+    <LabelWhere>charindex('@Bie',tjlb)&gt;0</LabelWhere>
+    <LabelOrder>OrderID DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding0"&gt;
+{Field="ID"/}&lt;/div&gt;
+{/Repeate}
+
+
+
+
+
+
+
+
+
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

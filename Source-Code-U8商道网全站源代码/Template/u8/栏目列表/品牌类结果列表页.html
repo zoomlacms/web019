@@ -1,0 +1,131 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{$GetUrldecode({$GetRequest(GName)$})$}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<style type="text/css">
+#bs-example #meuse{$GetRequest(pid)$} a{ color:#FF0; }
+</style>
+</head>
+<body>
+{ZL.Label id="全站头部"/} 
+<!--主体开始 -->
+<div class="container mySites padding0 Recommend_list"><p><a href="/">首页</a> > {ZL.Label id="输出父字典名称" cate="12" Pid="{$GetRequest(pid)$}" /}> {$GetUrldecode({$GetRequest(GName)$})$}</p></div><!-- -->
+<div class="container padding0">
+<div class="row margin0">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding5 myContent_lbox">
+<div style="margin-right:10px;">
+<div class="myContent_l">
+<div class="topic_list">
+<div class="title_list"><strong>
+{$GetUrldecode({$GetRequest(GName)$})$}
+</strong></div><!--topic end -->
+<div class="c_box">
+<div class="type">
+<ul class="padding0">  
+{ZL.Label id="输出一级字典列表" NodeID="{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}" ShowNum="10" cate="12" pid="{$GetRequest(pid)$}" /}
+</ul>
+</div><!--type end -->
+</div><!--topic_li end -->
+<div class="clearfix"></div>
+</div><!--topic_list end -->
+
+<div class="content_a" style="margin-top:0px;"><embed ID="focus_flash" src="http://image2.sina.com.cn/bj/zonghe/pixviewer.swf" wmode="opaque" bgcolor="#FFFFFF"FlashVars="pics=http://x031.2014.hx008.com/UploadFiles/yyxm/jpg/2014/7/201407121122289853.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z03.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z01.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z03.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z03.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z03.jpg&links=文章地址1|文章地址2|文章地址3|文章地址4|文章地址5文章地址6&borderwidth=270&borderheight=250&textheight=0" menu="false" quality="high" width="271" height="271" allowScriptAccess="never" allowNetworking="internal" autostart="0"  type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></div>
+<div class="clearfix"></div>
+
+
+
+
+<div class="topic_list">
+<div class="title_list"><strong>品牌排行榜</strong></div><!--topic end -->
+<div class="c_box">
+<div class="type_list">
+<ul class="padding0">     
+{ZL.Label id="输出指定节点标题_无时间_点击数" NodeID="1" TitleNum="28" ShowNum="8" /}
+</ul>
+</div><!--topic_li end --></div><!--topic_li end -->
+<div class="clearfix"></div>
+</div><!--topic_list end -->
+</div><!--myContent_l end -->
+</div>
+</div><!--myContent_lbox end-->
+
+
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 myContent_rbox  padding0">
+<div style=" margin-left:10px;">
+<div class="main2_right">
+<div class="Recommend">
+
+<div class="Recommend_list"><strong>他们看了还在看</strong></div><!--topic end -->
+<div class="Recommend_li">
+<ul class="padding0">  
+{ZL.Label id="输出黄页分类_带新推荐" Titlenum="18" ShowNum="6" synnum="26" /}
+</ul><div class="clearfix"></div>
+</div><!--Recommend_li end -->
+</div><!--Recommend end -->
+<div class="main_ad">
+<ul class="padding0">  
+<li><a href="#" target="_blank"><img src="{$CssDir/}images/right_ad.jpg" class="img-responsive"></a></li>
+<li><a href="#" target="_blank"><img src="{$CssDir/}images/right_ad1.jpg" class="img-responsive"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div><!-- main_ad end-->
+
+
+
+
+
+
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 myContent_rbox  padding0">
+
+<div class="main2_right">
+<div class="project_list">
+<div class="Recommend_list"><strong>商品展示</strong></div><!--topic end -->
+<div class="project_li">
+
+{ZL.Label id="输出黄页分类_带分页" Titlenum="30" ShowNum="10" /}
+</ul>
+</div><!--Recommend_li end -->
+</div><!--"project_list end -->
+</div><!--main2_right end -->
+</div><!-- main2_right end-->
+</div>
+</div><!-- maxw end-->
+
+
+<div class="content_a" style="margin-top:10px;"></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 myContent_rbox  padding0">
+<div style=" margin-left:90px;">
+<div style="margin-right:90px;">
+<div class="Recommend">
+<div class="Recommend_list"><strong>浏览了该商品的用户还浏览了</strong></div><!--topic end -->
+<div class="project_li">
+<ul class="padding0" align="center" >  
+{ZL.Label id="输出黄页分类_带新推荐" Titlenum="25" ShowNum="12" synnum="26" /}
+</ul><div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div><!--Recommend_li end -->
+</div><!--Recommend end -->
+<!--频道首页主体结束 -->
+
+
+
+<div style="clear:both;"></div>
+{ZL.Label id="全站底部"/}<div class="clear"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>778</LabelID>
+    <LabelName>输出当前用户推广金额</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,1,节点ID|ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_ads on ZL_CommonModel.ItemID=ZL_C_ads.ID</LabelTable>
+    <LabelField>ZL_CommonModel.CreateTime,ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.Title,ZL_C_ads.Dai,ZL_C_ads.Price,ZL_C_ads.ShopName,ZL_C_ads.xu,yj</LabelField>
+    <LabelWhere>(ZL_CommonModel.FirstNodeID=@NodeID or ZL_CommonModel.NodeID=@NodeID) And ZL_CommonModel.Status=99 And ZL_C_ads.Dai='{ZL:GetuserName()/}'</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;tr&gt;
+&lt;td&gt;{Field="ShopName"/}&lt;/td&gt;
+&lt;td&gt; {ZL:FormatDate({Field="CreateTime"/},yyyy-MM-dd)/}&lt;/td&gt;
+&lt;td&gt; {Field="yj"/}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td  colspan="3"&gt;{ZL.Page/}&lt;/td&gt;&lt;/tr&gt;
+{/Repeate}
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

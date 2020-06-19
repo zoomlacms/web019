@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>701</LabelID>
+    <LabelName>输出黄页类别_无分页</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>黄页</LabelCate>
+    <LabelDesc />
+    <LabelParam>Titlenum,30,1,标题数目|ShowNum,10,1,显示数目</LabelParam>
+    <LabelTable>ZL_PageReg left join ZL_Reg_Page on ZL_PageReg.UserID=ZL_Reg_Page.ID</LabelTable>
+    <LabelField>ZL_PageReg.CompanyName,ZL_PageReg.ID,ZL_PageReg.UserName,ZL_Reg_Page.lb</LabelField>
+    <LabelWhere>ZL_PageReg.Status=99 And  ZL_Reg_Page.lb='{$GetUrldecode({$GetRequest(lei)$})$}'</LabelWhere>
+    <LabelOrder>ZL_PageReg.CreationTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;li&gt;&lt;a href="/Page/Default.aspx?pageid={Field="ID"/}"&gt;{ZL:CutText({Field="CompanyName"/},@Titlenum,)/}&lt;/a&gt;&lt;/li&gt;
+{/Repeate}
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

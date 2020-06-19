@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>767</LabelID>
+    <LabelName>统计本月推广业绩数值</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>统计</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,1,节点ID|UserName,1,1,用户名</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_CommonModel left join {table1}.dbo.ZL_C_ads on {table1}.dbo.ZL_CommonModel.ItemID={table1}.dbo.ZL_C_ads.ID</LabelTable>
+    <LabelField>sum(cast(Price as float)) as num</LabelField>
+    <LabelWhere>(ZL_CommonModel.FirstNodeID=@NodeID or ZL_CommonModel.NodeID=@NodeID) And ZL_CommonModel.Status=99 And 
+Datename(year,createtime)+'-'+Datename(month,createtime)=Datename(year,GetDate())+'-'+Datename(month,GetDate())  And {table1}.dbo.ZL_C_ads.Dai='@UserName'</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Field="num"/}</LabelContent>
+    <LabelCount>0</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

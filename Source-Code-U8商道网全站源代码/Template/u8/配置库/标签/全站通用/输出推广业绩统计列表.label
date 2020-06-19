@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>766</LabelID>
+    <LabelName>输出推广业绩统计列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,1,节点ID|ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_ads on ZL_CommonModel.ItemID=ZL_C_ads.ID</LabelTable>
+    <LabelField>ZL_C_ads.Dai</LabelField>
+    <LabelWhere>({table1}.dbo.ZL_CommonModel.FirstNodeID=@NodeID or {table1}.dbo.ZL_CommonModel.NodeID=@NodeID) And {table1}.dbo.ZL_CommonModel.Status=99 group by Dai</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Repeate}
+&lt;tr&gt;
+&lt;td&gt;{Field="Dai"/}&lt;/td&gt;
+&lt;td&gt;{ZL.Label id="统计本月推广业绩数值" NodeID="@NodeID" UserName="{Field="Dai"/}" /}&lt;/td&gt;
+&lt;td&gt;{ZL.Label id="统计本月提成金额" NodeID="@NodeID" UserName="{Field="Dai"/}" TiCheng="{$GetRequest(t)$}" Isxu="否" /}&lt;/td&gt;
+&lt;td&gt;{ZL.Label id="统计本月提成金额" NodeID="@NodeID" UserName="{Field="Dai"/}" TiCheng="{$GetRequest(t1)$}" Isxu="是" /}&lt;/td&gt;
+&lt;td&gt;&lt;a href="/Admin/User/UserPurse.aspx?UserID={ZL.Label id="根据用户名输出用户ID" UserName="{Field="Dai"/}" /}" target="_blank"&gt;结算&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+{/Repeate}
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,139 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png"/>
+<title>U8推网络电视 - 提供数千套免费网络电视,电台在线直播点播服务</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}" />
+{ZL:Boot()/}
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#box .col-lg-9,#box .col-lg-3{padding-left:0px;}
+#nav #m{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}{ background:url({$CssDir/}Images/n{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}.jpg) no-repeat;}
+.mainR_li .menues{SField sid="文章模型数据源标签" FD="GeneralID" page="0"/} a{padding-left:16px; text-decoration:none; color:#F00;background:url({$CssDir/}images/left_bg.jpg) left  no-repeat;}
+.imgbox{min-height:350px;background:url({$CssDir/}images/about.jpg) left  repeat-x ;}
+
+</style>
+</head>
+<body>
+{ZL.Label id="全站头部"/}
+<!--主体开始 -->
+
+
+<div class="content_a" style="margin-top:10px;"></div>
+<div style=" margin-left:90px;">
+<div style="margin-right:85px;">
+<div class="Recommend">
+<div class="Recommend_list"><strong>最新商品店主推荐</strong></div><!--topic end -->
+<div class="project_li">
+<ul class="padding0" align="center" >
+{ZL.Label id="输出黄页分类_带新推荐" Titlenum="25" ShowNum="12" /}
+<div class="content_a" style="margin-top:10px;"></div>
+<div><strong><font color="#F00" size=5 >U8推网络电视是全球第一家集P2P直播点播于一身的网络电视网站.能够在线收看电影电视剧、体育直播、游戏竞技、动漫、综艺、新闻、财经资讯……播放流畅、完全免费,是网民喜爱的免费网络电视直播网站.</font></strong></div>
+
+<iframe id=TV name=TV frameborder=0 scrolling=no src=http://www.tv12345.com/live.asp align="center" width=1170 height=600></iframe>
+
+
+
+<div class="content_a" style="margin-top:10px;"></div>
+
+
+<div class="container" style="margin-top:10px;">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list" style="border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(18)/}" target="_blank">更多</a></span>
+<span><a href="/User/Register.aspx" title="注册会员，进入后台免费发布资讯 "  target="_blank"><font color="#FF5809"><b>我也要出现这里</b></font></a></span>
+<strong>新闻头条</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="18" TitleNum="16" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="18" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div><!--border_list end -->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list">
+<div style="margin-left:10px; border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(39)/}" target="_blank">更多</a></span><span><ul id="scrollnews" style="height:25px; width:160px; line-height:25px; line-width:160px; overflow:hidden">
+<li><a href="/User/Register.aspx" title="注册会员，进入后台免费发布资讯 "  target="_blank"><font color="#006030"><b>我要出现这里</b></font></a></li>
+<li><a href="/Class_70/Default.aspx" title="注册会员，进入后台免费发布店铺 "  target="_blank"><font color="#FF5809"><b>店铺免费收录</b></font></a></li>
+<li><a href="/Class_57/Default.aspx" title="广告位优惠进行中：1个月打9折、3个月打8折（推荐）、6个月打7折、12个月打5折 "  target="_blank"><font color="#EA0000"><b>广告位优惠啦</b></font></a></li>
+</ul>
+<script type="text/javascript">
+var scrollnews = document.getElementById('scrollnews');
+var lis = scrollnews.getElementsByTagName('li');
+var ml = 0;
+var timer1 = setInterval(function(){
+    var liHeight = lis[0].offsetHeight;
+    var timer2 = setInterval(function(){
+     scrollnews.scrollTop = (++ml);
+     if(ml == liHeight){
+        clearInterval(timer2);
+        scrollnews.scrollTop = 0;
+        ml = 0;
+        lis[0].parentNode.appendChild(lis[0]);
+     }
+  },10); 
+},5000);
+</script></span><strong>店长访谈</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="39" TitleNum="14" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="39" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div>
+</div><!--border_list end -->
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list">
+<div style="margin-left:10px; border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(35)/}" target="_blank">更多</a></span>
+<span><a href="/User/Register.aspx" title="注册会员，进入后台免费发布资讯 "  target="_blank"><font color="#FF5809"><b>我也要出现这里</b></font></a></span>
+<strong>网站推广</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="35" TitleNum="14" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="35" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div></div>
+</div><!--border_list end -->
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list">
+<div style="margin-left:10px; border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(37)/}" target="_blank">更多</a></span>
+<span><a href="/User/Register.aspx" title="注册会员，进入后台免费发布资讯 "  target="_blank"><font color="#FF5809"><b>我也要出现这里</b></font></a></span>
+<strong>网购防骗</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="37" TitleNum="14" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="37" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div>
+</div><!--border_list end -->
+
+
+
+
+
+
+
+</ul><div class="clearfix"></div>
+</div>
+</div>
+</div><!--Recommend_li end -->
+</div><!--Recommend end -->
+
+
+
+
+
+
+
+
+
+
+<!--内容主体结束 -->
+
+
+
+
+{ZL.Label id="全站底部"/}
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>789</LabelID>
+    <LabelName>输出推广的商家列表分页旧</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_User</LabelTable>
+    <LabelField>JoinTime,ParentUserID,UserName,UserID</LabelField>
+    <LabelWhere>ParentUserID='{ZL:GetuserID()/}'  </LabelWhere>
+    <LabelOrder>JoinTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;tr&gt;&lt;td&gt;{Field="UserName"/}&lt;/td&gt;&lt;td&gt;{ZL:FormatDate({Field="JoinTime"/},yyyy-MM-dd)/}&lt;/td&gt;&lt;td&gt; {ZL.Label id="根据用户ID输出用户名" Userid="{Field="ParentUserID"/}" /} &lt;/td&gt;&lt;td&gt; &lt;script&gt;
+var Pageid='{ZL.Label id="根据用户名得到黄页ID" UserName="{Field="UserName"/}" /}';
+if(Pageid!='[err:无记录]'){
+document.write('&lt;a href="/Page/Default.aspx?pageid={ZL.Label id="根据用户名得到黄页ID" UserName="{Field="UserName"/}" /}"&gt;详细&lt;/a&gt;');
+}
+else{
+document.write('该商家还未设置宣传页');
+ }
+&lt;/script&gt;&lt;/td&gt;&lt;/tr&gt;
+{/Repeate}
+ &lt;tr&gt;&lt;td colspan="4"&gt; {ZL.Page/}&lt;/td&gt;&lt;/tr&gt;
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

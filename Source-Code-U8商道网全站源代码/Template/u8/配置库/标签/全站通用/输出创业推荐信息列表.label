@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>729</LabelID>
+    <LabelName>输出创业推荐信息列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,10,1,显示数|NodeID,10,1,节点ID|TitleNum,30,1,标题长|Sym,60,1,简介长</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_Article on ZL_CommonModel.ItemID=ZL_C_Article.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.Title,ZL_C_Article.synopsis</LabelField>
+    <LabelWhere>(ZL_CommonModel.FirstNodeID=@NodeID OR ZL_CommonModel.NodeID=@NodeID) And ZL_CommonModel.Status=99  And  ZL_CommonModel.EliteLevel=1</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;li&gt;&lt;strong&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;
+{ZL:CutText({Field="Title"/},@TitleNum,)/}
+&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;{ZL:CutText({Field="synopsis"/},@Sym,)/}&lt;/p&gt;
+&lt;/li&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

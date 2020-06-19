@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>698</LabelID>
+    <LabelName>全站底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="content_a" style="margin-top:10px;"&gt;&lt;/div&gt;
+&lt;div class="foot"&gt;
+&lt;div class="container padding0"&gt;
+&lt;div class="foot_u8"&gt;
+&lt;div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"&gt;
+&lt;div class="right_bg"&gt;
+&lt;div class="u_titss"&gt;&lt;strong&gt;关于我们&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="u_li"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(395)/}" target="_blank"&gt;关于U8商道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(64)/}" target="_blank"&gt;免责声明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(67)/}" target="_blank"&gt;联系我们&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(394)/}" target="_blank"&gt;广告服务&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_56/Default.aspx" target="_blank"&gt;诚聘英才&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(68)/}" target="_blank"&gt;网站地图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(399)/}" target="_blank"&gt;媒体传播&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_57/Default.aspx" target="_blank"&gt;广告报价&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/guest/" target="_blank"&gt;建议反馈&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; 
+&lt;div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center"&gt;
+&lt;div class="right_bg"&gt;
+&lt;div class="u_titss text-center"&gt;&lt;strong&gt;U8商道旗下网站&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="u_imgs"&gt;
+&lt;ul class="padding0"&gt; 
+&lt;li&gt;&lt;a href="/"&gt;&lt;img src="{$CssDir/}images/logo_t1.gif" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.1ytgw.com/" target="_blank"&gt;&lt;img src="{$CssDir/}images/logo_t.gif" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; 
+&lt;div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"&gt;
+&lt;div class="right_bg"&gt;
+&lt;div class="u_titss"&gt;&lt;strong&gt;商机智取 成功有道&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="u_p"&gt;
+&lt;p&gt;
+想自己做生意？想做加盟商？想做代理商？&lt;br/&gt;
+想投资开店？想做连锁经营？上U8商道网找&lt;br/&gt;
+优质赚钱项目 一网搞定
+&lt;/p&gt; 
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt; 
+&lt;/div&gt;
+&lt;div class="frend_bor"&gt;
+&lt;div class="frend_link_tit"&gt;&lt;strong&gt;友情链接&lt;/strong&gt;　　&lt;font color="#9D9D9D"&gt;本站名称：U8推网 http://www.u8u88.com　　　   附注：请申请链接的同时做好本站的链接，请联系在线客服（注明友链合作）&lt;/font&gt;&lt;/div&gt;
+&lt;div class="frend_link_li"&gt;
+&lt;ul&gt;
+{ZL.Label id="友情链接列表" ShowNum="10" NodeID="11" /}
+&lt;/ul&gt;　　
+&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--botttom_box end --&gt;
+&lt;div class="copyright_bg"&gt;
+&lt;div class="copyright container"&gt;
+{$Copyright/}
+&lt;/div&gt;&lt;!--copyright end --&gt;
+&lt;/div&gt; &lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;div class="footercos"&gt;
+&lt;p&gt;&lt;a href="http://webscan.360.cn/index/checkwebsite?url=http%3A%2F%2Fwww.u8u88.com" target="_blank"&gt;&lt;img src="{$CssDir/}images/360pvwgsji.jpg"&gt;&lt;/a&gt; 
+&lt;a href="http://www.pinpaibao.com.cn/" target="_blank"&gt;&lt;img src="{$CssDir/}images/gr_119x50.jpg"&gt;&lt;/a&gt; 
+&lt;a href="http://www.1ytgw.com/" target="_blank"&gt;&lt;img src="{$CssDir/}images/foot7.png"&gt;&lt;/a&gt;
+
+&lt;script type="text/javascript"&gt;var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253249464'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D1253249464%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fde5e080aecb2ac895c5e7d2f918693c8' type='text/javascript'%3E%3C/script%3E"));
+&lt;/script&gt;
+&lt;/p&gt;
+&lt;/div&gt;&lt;!--footercos end --&gt;
+
+
+
+
+
+&lt;script type="text/javascript" src="{$CssDir/}js/jquery.rollGallery_yeso.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;$(document).ready(function($){
+	
+	$("#gun").rollGallery({
+		direction:"left",
+		speed:50,
+		showNum:9
+	});
+	});
+    &lt;/script&gt;	
+
+ &lt;script&gt;
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "请输入关键词") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "请输入关键词";
+	}
+}
+
+ &lt;/script&gt;
+
+
+&lt;script type="text/javascript" src="http://kefu6.kuaishang.cn/bs/ks.j?cI=905698&amp;fI=9291" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;a class="bshareDiv" href="http://www.bshare.cn/share"&gt;分享按钮&lt;/a&gt;&lt;script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=21e6a610-d026-4090-bec4-c82952f26ad1&amp;style=3&amp;fs=3&amp;textcolor=#f4eceb&amp;bgcolor=#df1d0c&amp;bp=qqmb,bsharesync,sinaminiblog,qzone,189share,sohuminiblog,renren,xinhuamb,tianya,shouji,ifengmb,neteasemb,qqxiaoyou,kaixin001,weixin,douban,qqim&amp;text=分享到"&gt;&lt;/script&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

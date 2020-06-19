@@ -1,0 +1,121 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png"/>
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}" />
+{ZL:Boot()/}
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#box .col-lg-9,#box .col-lg-3{padding-left:0px;}
+#nav #m{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}{ background:url({$CssDir/}Images/n{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}.jpg) no-repeat;}
+.mainR_li .menues{SField sid="文章模型数据源标签" FD="GeneralID" page="0"/} a{padding-left:16px; text-decoration:none; color:#F00;background:url({$CssDir/}images/left_bg.jpg) left  no-repeat;}
+.imgbox{min-height:350px;background:url({$CssDir/}images/about.jpg) left  repeat-x ;}
+
+</style>
+</head>
+<body>
+{ZL.Label id="全站头部"/}
+<!--主体开始 -->
+<div class="home_show">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+
+</ol>
+<div class="carousel-inner">
+<div class="item active">
+<a href="#"><img src="{$CssDir/}images/ktogojtl02.jpg"  class="img-responsive" alt="" /></a>
+</div>
+<div class="item">
+<a href="#"><img src="{$CssDir/}images/ktogojtl03.jpg"  class="img-responsive" /></a>
+</div>
+
+</div>
+</div>
+<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+</div>
+
+</div>
+<!--中部滚动四块到此结束 -->
+
+
+<div class="container" id="box" style="margin-top:60px;">
+<div class="row">
+<div class="col-lg-3  col-md-3 col-sm-3 col-xs-12">
+<div class="warp_li">
+<div class="help_box">
+<div class="help_title"><strong>帮助中心</strong></div>
+<div class="help_li">
+<strong>我是新手</strong>
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="49" TitleNum="40" ShowNum="6" /}
+</ul>
+</div><!--help_li end --> 
+
+<div class="help_li">
+<strong>个人用户帮助中心</strong>
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="50" TitleNum="40" ShowNum="6" /}
+</ul>
+</div><!--help_li end --> 
+
+<div class="help_li">
+<strong>商家用户帮助中心</strong>
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="51" TitleNum="40" ShowNum="6" /}
+</ul>
+</div><!--help_li end --> 
+
+<div class="help_li">
+<strong>媒体传播</strong>
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="58" TitleNum="40" ShowNum="6" /}
+</ul>
+</div><!--help_li end -->
+
+ 
+<div class="help_li">
+<strong>客服热线</strong>
+<ul class="padding0">
+　　贵州U8商道网络科技有限公司<br />
+　　客服热线：400-997-5002<br />
+　　广告投放：18885684001<br />
+　　网　址： http://www.u8u88.com
+</ul>
+</div><!--help_li end -->
+
+
+</div><!-- -->
+<!--content end -->
+</div><!--warp end -->
+</div><!--col-lg-6 end -->
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content_right">
+<div id="content">
+<div class="topic_body">{SField sid="文章模型数据源标签" FD="Title" page="0"/}</div>
+
+{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}</div> 
+ 
+<div class="clearfix"></div>
+</div><!--col-lg-3 end -->
+</div><!--row end -->
+
+<div class="clearfix"></div>
+</div><!--container end-->
+<!--内容主体结束 -->
+
+
+
+
+{ZL.Label id="全站底部"/}
+
+</body>
+</html>

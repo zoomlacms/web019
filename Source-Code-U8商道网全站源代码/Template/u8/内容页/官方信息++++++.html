@@ -1,0 +1,59 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png"/>
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#box .col-lg-9,#box .col-lg-3{padding-left:0px;}
+#nav #m{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}{ background:url({$CssDir/}Images/n{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}.jpg) no-repeat;}
+.mainR_li .menues{SField sid="文章模型数据源标签" FD="GeneralID" page="0"/} a{padding-left:16px; text-decoration:none; color:#F00;background:url({$CssDir/}images/left_bg.jpg) left  no-repeat;}
+</style>
+</head>
+<body>
+{ZL.Label id="全站头部"/}
+<!--主体开始 -->
+<div class="imgbox"><img src="{$CssDir/}images/about.jpg" class="img-responsive"></div><!-- -->
+<div class="container" id="box">
+<div class="row">
+<div class="col-lg-3  col-md-3 col-sm-3 col-xs-12">
+<div class="warp">
+<div class="box_title">
+<strong>{SField sid="文章模型数据源标签" FD="Title" page="0"/}</strong>
+<div class="mainR_li">
+<ul class="padding0">
+<li class="menues54"><a href="{ZL:GetInfoUrl(54)/}">关于我们</a></li>
+<li class="menues55"><a href="{ZL:GetInfoUrl(55)/}">隐私声明</a></a></li>
+<li class="menues56"><a href="{ZL:GetInfoUrl(60)/}">加入我们</a></a></li>
+<li class="menue57"><a href="{ZL:GetInfoUrl(57)/}">联系我们 </a></li>
+<li class="menue58"><a href="{ZL:GetInfoUrl(175)/}"> 商务合作</a></li>
+<li class="menue57"><a href="{ZL:GetInfoUrl(59)/}">官方QQ群 </a></li>
+</ul>
+</div><!--mainR_li end --> 
+</div><!-- -->
+<!--content end -->
+</div><!--warp end -->
+</div><!--col-lg-6 end -->
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content_r">
+<div id="content">
+
+{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}</div> 
+ 
+<div class="clearfix"></div>
+</div><!--col-lg-3 end -->
+</div><!--row end -->
+
+<div class="clearfix"></div>
+</div><!--container end-->
+<!--内容主体结束 -->
+
+{ZL.Label id="全站底部"/}
+</body>
+</html>

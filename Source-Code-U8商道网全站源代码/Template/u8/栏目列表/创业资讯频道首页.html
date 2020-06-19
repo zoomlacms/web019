@@ -1,0 +1,583 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>U8资讯网免费发布信息_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+.mainR_list .topic{ border:none;}
+#topic_text li{ margin-left:0;}
+#pageDiv li a{margin:0;}
+</style>
+</head>
+<body>
+{ZL.Label id="资讯全站头部"/}
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 padding5">
+<div id="carousel-example-generic" class="carousel slide new_picsss" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active">1</li>
+<li data-target="#carousel-example-generic" data-slide-to="1">2</li>
+<li data-target="#carousel-example-generic" data-slide-to="2">3</li>
+
+</ol>
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+<a href="#">  <img src="{$CssDir/}images/z01.jpg" class="img-responsive"></a>
+</div>
+<div class="item">
+<a href="#"> <img src="{$CssDir/}images/z02.jpg" class="img-responsive"></a>
+</div>
+
+<div class="item">
+<a href="#"> <img src="{$CssDir/}images/z03.jpg" class="img-responsive"></a>
+<div class="carousel-caption">
+<p>9元女装服装在哪里进货好</p>
+</div>
+</div>
+</div>
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+</div>
+<div class="inner">
+<div class="hot_topic">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(34)/}" target="_blank">更多</a><strong>热门专题</strong><span>PROJECT</span></div>
+<ul class="list-unstyled">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="34" TitleNum="30" ShowNum="3" /}
+</ul>
+</div>
+<div class="topic_center">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(34)/}" target="_blank">更多</a><strong>专题聚焦</strong><span>SPECIAL SUBJECT</span></div>
+<div class="row">
+<ul class="list-unstyled">
+{ZL.Label id="文章缩略图列表_无标题_响应式" NodeID="34" ShowNum="2" ClassName="col-lg-6 col-md-6 col-sm-6 col-xs-12" /}
+</ul>
+</div>
+</div>
+</div><!-- inner end -->
+</div>
+<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 padding5">
+<!-- <div class="elit_new"> -->
+<div class="banner_box">
+<div><strong>热点资讯</strong>{ZL.Label id="输出指定节点推荐信息_无时间属性a" NodeID="18" TitleNum="40" ShowNum="1" /}<div class="clearfix"></div></div>
+<ul class="list-unstyled">
+{ZL.Label id="输出指定节点标题_无时间属性_响应式" NodeID="18" TitleNum="30" ShowNum="6" ClassName="col-lg-6 col-md-6 col-sm-6 col-xs-12" /}
+</ul>
+</div>
+<div class="banner_box">
+<div><strong>网店推广</strong>{ZL.Label id="输出指定节点推荐信息_无时间属性a" NodeID="35" TitleNum="30" ShowNum="1" /}<div class="clearfix"></div></div>
+<ul class="list-unstyled">
+<!-- {ZL.Label id="输出创业推荐信息列表" NodeID="1" ShowNum="4" TitleNum="30" Sym="150" /} -->
+{ZL.Label id="输出指定节点标题_无时间属性_响应式" NodeID="35" TitleNum="30" ShowNum="6" ClassName="col-lg-6 col-md-6 col-sm-6 col-xs-12" /}
+<div class="clearfix"></div>
+</ul>
+</div>
+<div class="banner_box" style="margin-bottom:10px;">
+<div><strong>网店指南</strong>{ZL.Label id="输出指定节点推荐信息_无时间属性a" NodeID="19" TitleNum="30" ShowNum="1" /}<div class="clearfix"></div></div>
+<ul class="list-unstyled">
+<!-- {ZL.Label id="输出创业推荐信息列表" NodeID="1" ShowNum="4" TitleNum="30" Sym="150" /} -->
+{ZL.Label id="输出指定节点标题_无时间属性_响应式" NodeID="19" TitleNum="30" ShowNum="6" ClassName="col-lg-6 col-md-6 col-sm-6 col-xs-12" /}
+</ul><div class="clearfix"></div>
+</div>
+<div class="recommand">
+<div class="recommand_tit"><b>网店装修</b></div>
+<ul class="list-unstyled">
+<!-- {ZL.Label id="输出创业推荐信息列表" NodeID="1" ShowNum="4" TitleNum="30" Sym="150" /} -->
+{ZL.Label id="输出指定节点推荐信息_无时间属性_响应式" NodeID="15" TitleNum="30" ShowNum="8" ClassName="col-lg-6 col-md-6 col-sm-6 col-xs-12" /}</ul>
+<div class="clearfix"></div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 padding5">
+<div class="xiangmu">
+<a href="http://www.u8u88.com" class="btn btn-warning"><span class="glyphicon glyphicon-pencil"></span>我要找商品</a>
+<a href="/user" class="btn btn-warning"><span class="glyphicon glyphicon-user"></span>免费发布信息</a>
+
+</div>
+
+<div class="recommand">
+<div class="recommand_tit"><font color="#000000">目前正有</font><b> 9942 </b><font color="#000000">位游客在线找资讯</font></br>
+<font color="#000000">今日新增</font> <b>320</b> <font color="#000000">位会员 </font> <font color="#000000">资讯新增</font> <b>1500</b> <font color="#000000">篇</font> </div>
+</div>
+
+<div class="content_a" style="margin-top:6px;"></div>
+<div class="panel panel-default" style=" margin-bottom:10px;">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse"  data-parent="#accordion" href="#collapseOne">
+资讯排行榜
+</a>
+</h4>
+</div>
+<div  class="panel-collapse collapse in">
+<div class="panel-body">
+<ul class="padding0" id="brand">
+{ZL.Label id="品牌资讯排行榜" NodeID="1" TitleNum="30" ShowNum="5" /}
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse"  data-parent="#accordion" href="#collapseOne">
+网购技巧
+</a>
+</h4>
+</div>
+<div  class="panel-collapse collapse in">
+<div class="panel-body" style="padding-bottom:0;padding-top:8px;">
+<ul class="padding0" style="line-height:22px;">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="37" TitleNum="32" ShowNum="3" /}
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="rollBox">
+
+<div class="scrollcon">
+<div class="LeftBotton" onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()"></div>
+<div class="Cont" id="ISL_Cont">
+<div class="ScrCont">
+<div id="List1">
+<!-- 图片列表 begin -->
+<ul class="padding0" style="margin-top:10px;">
+{ZL.Label id="文章缩略图列表_带标题响应式" NodeID="1" TitleNum="30" ShowNum="10" /}
+</ul>
+<!-- 图片列表 end -->
+</div>
+<div id="List2"></div>
+</div>
+</div>
+<div class="RightBotton" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()"></div>
+</div><!--content end-->
+</div><!--rollBox end-->
+</div>
+</div>
+
+
+<div class="container" style="margin-top:10px;"><div class="row"><a href="#"><img src="{$CssDir/}images/a1.jpg" class="img-responsive"></a></div>
+</div><!--container end -->
+
+<div class="container" style="margin-top:10px;">
+<div class="project_lis"><b>特色餐饮·品牌服装·娱乐项目·美容加盟</b></div><!--project_list end -->
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_l padding0">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(20)/}" target="_blank">更多</a><strong>特色餐饮</strong><span>RESTAURANT</span></div>
+<div class="topic_ul">
+<ul class="padding0">
+{ZL.Label id="输出创业资讯列表_带图推荐" NodeID="20" ShowNum="2" TitleNum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+<div class="topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="20" TitleNum="50" ShowNum="10" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+</div><!--project_list_l end -->
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_m padding0">
+<div style=" margin-left:20px; padding-left:10px;">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(21)/}" target="_blank">更多</a><strong>品牌服装</strong><span>CLOTHING</span></div>
+<div class="topic_ul">
+<ul class="padding0">
+{ZL.Label id="输出创业资讯列表_带分类推荐" NodeID="21" ShowNum="3" TitleNum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+<div class="topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出品牌服装节点标题_无时间属性" NodeID="21" TitleNum="22" ShowNum="20" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+</div>
+</div><!-- project_list_m end-->
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_r">
+<div class="topic_tit_li">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(22)/}" target="_blank">更多</a><strong>娱乐项目</strong><span>Entertainment</span></div><!--topic_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="22" TitleNum="20" ShowNum="1" synNum="66" /}</div><!--topic_syn end -->
+<div class="topic_tit" id="li_clea">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="22" TitleNum="45" ShowNum="2" /}
+</ul><div class="clearfix"></div>
+</div>
+</div><!--topic_tit_li end -->
+
+<div class="topic_tit_li">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(23)/}" target="_blank">更多</a><strong>美容加盟</strong><span>BENUEY</span></div><!--topic_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="23" TitleNum="20" ShowNum="1" synNum="66" /}</div><!--topic_syn end -->
+<div class="topic_tit" id="li_clea1">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="23" TitleNum="45" ShowNum="2" /}
+</ul>
+</div>
+</div><!--topic_tit_li end -->
+
+</div><!--project_list_r end -->
+</div><!--row end -->
+</div><!--container end -->
+<div class="container"><div class="row"><a href="#"><img src="{$CssDir/}images/ad02.jpg" alt="" class="img-responsive"></a></div></div><!--ad2 end -->
+
+<div class="container" style="margin-top:10px;">
+<div class="project_lis"><b>创意家居·饰品批发·特色创新·建材装饰</b></div><!--project_list end -->
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_l padding0">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(24)/}" target="_blank">更多</a><strong>创意家居</strong><span>HOME FURNISHING</span></div><!--topic_title END -->
+<div class="tit_box">
+<div class="topic_ul">
+<ul class="padding0">
+{ZL.Label id="输出创业资讯列表_带图推荐" NodeID="24" ShowNum="2" TitleNum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+<div class="topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性推荐" NodeID="24" TitleNum="50" ShowNum="4" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+</div><!--tit_box end -->
+
+<div class="tit_box">
+<div class="topic_ul">
+<ul class="padding0">
+{ZL.Label id="输出创业资讯列表_带图非推荐" NodeID="20" ShowNum="2" TitleNum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+<div class="topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="24" TitleNum="50" ShowNum="4" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+</div><!--tit_box end -->
+
+
+
+</div><!--project_list_l end -->
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_m padding0">
+<div style=" margin-left:20px; padding-left:10px;">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(25)/}" target="_blank">更多</a><strong>饰品批发</strong><span>GIFT</span></div><!--topic_title end-->
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性推荐" NodeID="25" TitleNum="20" ShowNum="4" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topic_ul padding0">
+<ul class="padding0" id="img">
+{ZL.Label id="输出创业资讯列表_带分类推荐响应式" NodeID="25" ShowNum="1" TitleNum="20" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+</div><!--row end-->
+
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  topic_ul">
+<ul class="padding0" id="img">
+{ZL.Label id="输出创业资讯列表_带分类非推荐响应式" NodeID="25" ShowNum="1" TitleNum="20" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topic_tit padding0">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="24" TitleNum="20" ShowNum="4" /}
+
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+</div><!--row end-->
+<div class="gift">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(26)/}" target="_blank">更多</a><strong>特色创新</strong><span>INNOVATION</span></div><!--topic_title end -->
+<div class="topic_ul">
+<ul class="padding0">
+{ZL.Label id="输出创业资讯列表_带图推荐" NodeID="26" ShowNum="2" TitleNum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+<div class="topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出品牌服装节点标题_无时间属性" NodeID="26" TitleNum="22" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+
+</div><!--gift end -->
+</div>
+</div><!-- project_list_m end-->
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_r">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(27)/}" target="_blank">更多</a><strong>建材装饰</strong><span>
+BUILDING MATERIALS</span></div><!--topic_title end -->
+<div class="topic_tit_li">
+<div class="topic_syn" id="syn_pic">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="27" TitleNum="20" ShowNum="3" synNum="66" /}</div><!--topic_syn end -->
+<div class="topic_tit" id="li_clea">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="27" TitleNum="45" ShowNum="4" /}
+</ul><div class="clearfix"></div>
+</div>
+</div><!--topic_tit_li end -->
+</div><!--project_list_r end -->
+</div><!--row end -->
+</div><!--container end -->
+<div class="container"><div class="row"><a href="#"><img src="{$CssDir/}images/ad03.jpg" alt="" class="img-responsive"></a></div></div><!--ad2 end -->
+
+<div class="container" style="margin-top:10px;">
+<div class="project_lis"><b>汽车美容·节能环保·网络教育·冷门行业</b> </div><!--project_list end -->
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_l padding0">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(28)/}" target="_blank">更多</a><strong>汽车美容</strong><span>CAR SERVICE</span></div><!--topic_title END -->
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性推荐" NodeID="28" TitleNum="20" ShowNum="3" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topic_ul padding0">
+<ul class="padding0" id="img2">
+{ZL.Label id="输出创业资讯列表_带分类推荐响应式" NodeID="28" ShowNum="1" TitleNum="20" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+</div><!--row end-->
+
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="28" TitleNum="20" ShowNum="4" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topic_ul padding0">
+<ul class="padding0" id="img1">
+{ZL.Label id="输出创业资讯列表_带分类非推荐响应式" NodeID="28" ShowNum="1" TitleNum="20" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+</div><!--row end-->
+<div class="topic_ul">
+<ul class="padding0">
+{ZL.Label id="输出创业资讯列表_带图非推荐" NodeID="28" ShowNum="2" TitleNum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+
+</div><!--project_list_l end -->
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_m padding0">
+<div style=" margin-left:20px; padding-left:10px;">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(29)/}" target="_blank">更多</a><strong>节能环保</strong><span>Mechanics</span></div><!--topic_title end-->
+<div class="topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出品牌服装节点标题_无时间属性" NodeID="29" TitleNum="22" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+<div class="topic_ul">
+<ul class="padding0">
+{ZL.Label id="输出创业资讯列表_带图推荐" NodeID="29" ShowNum="2" TitleNum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+
+<div class="gift">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(30)/}" target="_blank">更多</a><strong>网络教育</strong><span>EDUCATION</span></div><!--topic_title end -->
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  topic_tit">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="30" TitleNum="20" ShowNum="4" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_tit end -->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topic_ul padding0">
+<ul class="padding0" id="img2">
+{ZL.Label id="输出创业资讯列表_带分类推荐响应式" NodeID="30" ShowNum="1" TitleNum="20" /}
+</ul><div class="clearfix"></div>
+</div><!--topic_ul end -->
+</div><!--row end-->
+
+</div><!--gift end -->
+</div>
+</div><!-- project_list_m end-->
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 project_list_r">
+<div class="topic_title"><a href="{ZL:GetNodeLinkUrl(31)/}" target="_blank">更多</a><strong>冷门行业</strong><span>
+ELSE
+</span></div><!--topic_title end -->
+<div class="topic_tit_li">
+<div class="topic_syn" id="syn_pic">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="27" TitleNum="20" ShowNum="1" synNum="66" /}</div><!--topic_syn end -->
+<div class="topic_tit" id="li_clea">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="31" TitleNum="45" ShowNum="8" /}
+</ul><div class="clearfix"></div>
+</div>
+</div><!--topic_tit_li end -->
+</div><!--project_list_r end -->
+</div><!--row end -->
+</div><!--container end -->
+<div class="container" style="margin-top:10px;"><div class="row"><a href="#"><img src="{$CssDir/}images/ad04.jpg"></a></div></div>
+<div class="container" style="margin-top:10px;">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list" style="border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(38)/}" target="_blank">更多</a></span><strong>开店故事</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="38" TitleNum="16" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="38" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div><!--border_list end -->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list">
+<div style="margin-left:10px; border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(39)/}" target="_blank">更多</a></span><strong>店长访谈</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="39" TitleNum="14" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="39" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div>
+</div><!--border_list end -->
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list">
+<div style="margin-left:10px; border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(40)/}" target="_blank">更多</a></span><strong>商海万象</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="40" TitleNum="16" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="40" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div></div>
+</div><!--border_list end -->
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding0 border_list">
+<div style="margin-left:10px; border:1px solid #ccc;">
+<div class="story_title"><span><a href="{ZL:GetNodeLinkUrl(41)/}" target="_blank">更多</a></span><strong>经营之道</strong></div><!--story_title end -->
+<div class="topic_syn">{ZL.Label id="文章缩略图_带标题简介_响应式" NodeID="41" TitleNum="16" ShowNum="1" synNum="60" /}</div><!--topic_syn end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="41" TitleNum="36" ShowNum="6" /}
+</ul><div class="clearfix"></div>
+</div>
+</div><!--border_list end -->
+
+</div>
+</div><!-- -->
+
+
+{ZL.Label id="全站底部"/} 
+<script type="text/javascript">
+//图片滚动列表
+var Speed = 0.01;//速度(毫秒)
+var Space = 5;//每次移动(px)
+var PageWidth = 182;//翻页宽度
+var fill = 0;//整体移位
+var MoveLock = false;
+var MoveTimeObj;
+var Comp = 0;
+var AutoPlayObj = null;
+GetObj("List2").innerHTML = GetObj("List1").innerHTML;
+GetObj('ISL_Cont').scrollLeft = fill;
+GetObj("ISL_Cont").onmouseover = function(){
+clearInterval(AutoPlayObj);
+}
+GetObj("ISL_Cont").onmouseout = function(){
+AutoPlay();
+}
+
+AutoPlay();
+
+function GetObj(objName){
+if(document.getElementById){
+return eval('document.getElementById("'+objName+'")')
+}else{
+return eval('document.all.'+objName)
+}
+}
+
+function AutoPlay(){ //自动滚动
+clearInterval(AutoPlayObj);
+AutoPlayObj = setInterval('ISL_GoDown();ISL_StopDown();',2000);//间隔时间
+}
+
+function ISL_GoUp(){ //上翻开始
+if(MoveLock) return;
+clearInterval(AutoPlayObj);
+MoveLock = true;
+MoveTimeObj = setInterval('ISL_ScrUp();',Speed);
+}
+
+function ISL_StopUp(){ //上翻停止
+clearInterval(MoveTimeObj);
+if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0){
+Comp = fill - (GetObj('ISL_Cont').scrollLeft % PageWidth);
+CompScr();
+}else{
+MoveLock = false;
+}
+AutoPlay();
+}
+
+function ISL_ScrUp(){ //上翻动作
+if(GetObj('ISL_Cont').scrollLeft <= 0){
+GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft + GetObj('List1').offsetWidth
+}
+GetObj('ISL_Cont').scrollLeft -= Space ;
+}
+
+function ISL_GoDown(){ //下翻
+clearInterval(MoveTimeObj);
+if(MoveLock) return;
+clearInterval(AutoPlayObj);
+MoveLock = true;
+ISL_ScrDown();
+MoveTimeObj = setInterval('ISL_ScrDown()',Speed);
+}
+function ISL_StopDown(){ //下翻停止
+clearInterval(MoveTimeObj);
+if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0 ){
+Comp = PageWidth - GetObj('ISL_Cont').scrollLeft % PageWidth + fill;
+CompScr();
+}else{
+MoveLock = false;
+}
+AutoPlay();
+}
+
+function ISL_ScrDown(){ //下翻动作
+if(GetObj('ISL_Cont').scrollLeft >= GetObj('List1').scrollWidth){
+GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft - GetObj('List1').scrollWidth;
+}
+GetObj('ISL_Cont').scrollLeft += Space ;
+}
+
+function CompScr(){
+var num;
+if(Comp == 0){
+MoveLock = false;return;
+}
+if(Comp < 0){ //上翻
+if(Comp < -Space){
+Comp += Space;
+num = Space;
+}else{
+num = -Comp;
+Comp = 0;
+}
+GetObj('ISL_Cont').scrollLeft -= num;
+setTimeout('CompScr()',Speed);
+}else{ //下翻
+if(Comp > Space){
+Comp -= Space;
+num = Space;
+}else{
+num = Comp;
+Comp = 0;
+}
+GetObj('ISL_Cont').scrollLeft += num;
+setTimeout('CompScr()',Speed);
+}
+}
+</script>
+
+</body>
+</html>

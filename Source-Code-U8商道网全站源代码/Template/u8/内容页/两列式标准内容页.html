@@ -1,0 +1,181 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png"/>
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}" />
+{ZL:Boot()/}
+<script type="text/javascript" src="{$CssDir/}js/dh_1.js"></script>
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#box .col-lg-9,#box .col-lg-3{padding-left:0px;}
+.mainR_list .topic{ border:none;}
+#nav #m{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}{ background:url({$CssDir/}Images/n{ZL.Label id="抽取父节点ID" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}.jpg) no-repeat;}
+</style>
+</head>
+<body>
+{ZL.Label id="全站头部"/}
+<!--主体开始 -->
+
+
+<div class="container" id="box">
+<div class="row">
+<div class="content_a" style="margin-top:10px;"></div>
+<div class="col-lg-9  col-md-9 col-sm-9 col-xs-12">
+<div class="warp">
+<div class="Recommend_list"><p style="margin-left:10px;">您现在正在浏览的：{ZL.Label id="抽取父节点ID名与链接" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}> {SField sid="文章模型数据源标签" FD="Title" page="0"/}</p></div>
+
+<div class="box_title">
+<h1>{SField sid="文章模型数据源标签" FD="Title" page="0"/}</h1>
+<div class="myAbbr"><span id="CreateTime">发布时间：{ZL:FormatDate({SField sid="文章模型数据源标签" FD="CreateTime" page="0"/},yyyy-MM-dd)/}</span> <span id="Hits">　浏览次数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}"></SCRIPT></span> <span id="Hits">　来源: u8u88.comU8资讯网</span>
+</div></div><!-- -->
+<div class="warp_syn" style="clear:both;">
+<strong>[摘要]</strong><p>{SField sid="文章模型数据源标签" FD="synopsis" page="0"/}</p>
+</div><!--warp_syn end -->
+
+<div id="content">{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}
+<div id="begin" style="display:none;"><span id="asc">上一篇文章：{ZL.Label id="上一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</span><br/> <span id="desc">下一篇文章：{ZL.Label id="下一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</span></div>
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_tqq"></a>
+<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_renren"></a>
+<a class="jiathis_button_kaixin001"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+<a class="jiathis_counter_style"></a>
+<div class="clearfix"></div>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<div align="right"　class="inputer"　>责任编辑：{SField sid="文章模型数据源标签" FD="inputer" page="0"/}</div><!--inputer end -->
+<div class="label_li">
+标签：{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}
+<div class="clearfix"></div>
+</div><!--label end -->
+<div class="ad_content"><a href="#"><img src="{$CssDir/}images/content_ad.jpg" class="img-responsive"></a></div>
+
+<div class="content_a" style="margin-top:0px;"><embed ID="focus_flash"src="http://image2.sina.com.cn/bj/zonghe/pixviewer.swf" wmode="opaque"bgcolor="#FFFFFF"FlashVars="pics=http://x031.2014.hx008.com/Template/u8/style/images/content_ad.jpg|http://x031.2014.hx008.com/Template/u8/style/images/content_ad.jpg|http://x031.2014.hx008.com/Template/u8/style/images/content_ad.jpg|http://x031.2014.hx008.com/Template/u8/style/images/content_ad.jpg|http://x031.2014.hx008.com/Template/u8/style/images/content_ad.jpg&links=文章地址1|文章地址2|文章地址3|文章地址4|文章地址5&borderwidth=840&borderheight=74&textheight=0" menu="false" quality="high" width="840"height="84"allowScriptAccess="never" allowNetworking="internal" autostart="0"type="application/x-shockwave-flash"pluginspage="http://www.macromedia.com/go/getflashplayer" /></div>
+<div class="clearfix"></div>
+
+
+
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 padding0">
+<div id="about" style="margin-left:10px;">
+<div class="Recommend_list"><strong>关于"{ZL.Label id="输出指定ID节点名" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}"的文章</strong></div><!--topic end -->
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_带时间属性" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" TitleNum="60" ShowNum="8" /}
+</ul><div class="clearfix"></div>
+</div><!--about end -->
+</div><!-- -->
+
+
+
+
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 padding0">
+<div id="about" style="margin-left:14px; margin-right:10px;">
+<div class="Recommend_list"><strong>相关推荐</strong></div><!--topic end -->
+<ul class="padding0">
+{ZL.Label id="相关文章列表输出带推荐" ShowNum="10" TitleNum="30" KeyWord="{SField sid="文章模型数据源标签" FD="Title" page="0"/}" /}
+</ul><div class="clearfix"></div>
+</div><!--about end -->
+</div><!-- -->
+
+</div><!--row end -->
+<div class="clearfix"></div>
+
+
+<!-- 多说评论框 start --> <div class="ds-thread" data-thread-key="{SField sid="文章模型数据源标签" FD="Title" page="0"/}" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div> <!-- 多说评论框 end --> <!-- 多说公共JS代码 start (一个网页只需插入一次) --> <script type="text/javascript"> var duoshuoQuery = {short_name:"u8u8888"}; (function() { var ds = document.createElement('script'); ds.type = 'text/javascript';ds.async = true; ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js'; ds.charset = 'UTF-8'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds); })(); </script> <!-- 多说公共JS代码 end -->  
+
+
+
+
+
+</div>
+<!--content end -->
+</div><!--warp end -->
+</div><!--col-lg-6 end -->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="mainR_list" style="border:1px solid #ccc;">
+<div class="mainR_title_li"><strong>特别推荐</strong></div>
+<div class="about_li">
+<ul class="padding0">
+{ZL.Label id="输出指定节点标题_无时间属性推荐" NodeID="1" TitleNum="38" ShowNum="10" /}
+</ul><div class="clearfix"></div>
+</div><!--about end -->
+</div><!--循环块之一结束 -->
+
+<div class="clearfix"></div>
+
+<div class="content_a" style="margin-top:0px;"><embed ID="focus_flash" src="http://image2.sina.com.cn/bj/zonghe/pixviewer.swf" wmode="opaque" bgcolor="#FFFFFF"FlashVars="pics=http://x031.2014.hx008.com/UploadFiles/yyxm/jpg/2014/7/201407121122289853.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z03.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z01.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z01.jpg|http://x031.2014.hx008.com/Template/u8/style/images/z01.jpg&links=文章地址1|文章地址2|文章地址3|文章地址4|文章地址5&borderwidth=270&borderheight=250&textheight=0" menu="false" quality="high" width="279" height="271" allowScriptAccess="never" allowNetworking="internal" autostart="0"  type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></div>
+<div class="clearfix"></div>
+
+<div class="mainR_list" style=" margin-top:0px;border:1px solid #ccc;">
+<div class="mainR_title_li"><strong>热点推荐</strong></div>
+<div class="con_list">
+<div id="about_li">
+<ul class="padding0">
+{ZL.Label id="文章缩略图列表_带标题带推荐" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" TitleNum="16" ShowNum="4" /}
+</ul><div class="clearfix"></div>
+</div><!--about end -->
+</div><!-- con_li end-->
+<div class="clearfix"></div>
+</div><!--con end -->
+<div class="mainR_list" style=" margin-top:10px;border:1px solid #ccc;">
+<div class="mainR_title_li"><strong>点击排行榜</strong></div>
+<ul class="topic padding0">
+{ZL.Label id="输出指定节点标题_无时间_点击数" NodeID="1" TitleNum="38" ShowNum="10" /}
+</ul>
+</div><!--循环块之一结束 --> 
+
+<div class="clearfix"></div>
+</div><!--col-lg-3 end -->
+</div><!--row end -->
+</div><!--con end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_a" style="margin-top:10px;"></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 myContent_rbox  padding0">
+<div style=" margin-left:80px;">
+<div style="margin-right:80px;">
+<div class="Recommend">
+<div class="Recommend_list"><strong>最新商品店主推荐</strong></div><!--topic end -->
+<div class="project_li">
+<ul class="padding0" align="center" >  
+{ZL.Label id="输出黄页分类_带新推荐" Titlenum="25" ShowNum="12" synnum="26" /}
+</ul><div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div><!--Recommend_li end -->
+</div><!--Recommend end -->
+
+
+
+
+
+<div class="clearfix"></div>
+</div><!--container end-->
+
+<!--内容主体结束 -->
+{ZL.Label id="全站底部"/}
+</body>
+</html>

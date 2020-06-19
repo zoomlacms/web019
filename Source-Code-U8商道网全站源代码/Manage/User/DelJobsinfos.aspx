@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="manage_User_DelJobsinfos, App_Web_3oix3hov" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

@@ -1,0 +1,439 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我是推广员_U8商道网-淘宝网,天猫商城,爱淘网,网购首选-得商道，握天下！</title>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png"/>
+<title>汇聚智能门户与云计算引擎的Zoomla!逐浪CMS_U8商道网-淘宝网,天猫商城,爱淘网,网购首选-得商道，握天下！</title>
+<meta name="Keywords" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script src="http://code.zoomla.cn/jquery/jquery-1.10.2.min.js"></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="/Template/u8/style/js/dh_1.js"></script>
+<link href="/Template/u8/style/global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#box .col-lg-9,#box .col-lg-3{padding-left:0px;}
+#nav #m[err:无记录]{ background:url(/Template/u8/style/Images/n[err:无记录].jpg) no-repeat;}
+.mainR_li .menues49 a{padding-left:16px; text-decoration:none; color:#F00;background:url(/Template/u8/style/images/left_bg.jpg) left  no-repeat;}
+.imgbox{min-height:350px;background:url(/Template/u8/style/images/about.jpg) left  repeat-x ;}
+
+</style>
+</head>
+<body>
+<!--top-->
+<div class="top_box">
+<div class="container padding0">
+<div class="row">
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12  pull-left padding0">
+<div class="padding0 login"><iframe src="/login.aspx" frameborder="0" height="30px" width="100%" scrolling="no" allowtransparency="true"></iframe></div></div>
+<div class="col-lg-2 col-md-2 col-sm-2  col-xs-12 top_li  pull-left">
+<ul class="padding0">
+<li><a href="/Class_1/Default.aspx" target="_blank">创业资讯</a><span class="line">|</span></li> 
+<li class="dropdown"><a href="#" class="dropdown-toggle dh" data-toggle="dropdown">行业频道 <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="/Class_32/NodePage.aspx" target="_blank">新闻中心</a></li>
+<li><a href="/Class_1/Default.aspx" target="_blank">创业资讯</a></li>
+</ul></li>
+</ul>
+</div><!--top_middle end -->
+<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+<ul class="top_li2">
+<li class="Micro"><a  href="/Template/u8/style/Images/top-wx.jpg"><img src="/Template/u8/style/images/top-wx.jpg" id="Micro1" alt="微信" onMouseMove="Micro()"  alt="" class="img-responsive" /></a>
+<div id="Micro_l" style="display:none;"  onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/u8/style/Images/footerimg.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找公众号:u8商道</li>
+</ul>
+</div>
+
+</div>
+
+</li>
+<li><a href="http://weibo.com/zoomlacms" target="_blank" title="收听我们的新浪微博"><img src="/Template/u8/style/images/sina.jpg" alt="收听我们的新浪微博" class="img-responsive"></a></li>
+<li><a href="http://t.qq.com/wwwwzf" target="_blank" title="收听我们的腾讯微博"><img src="/Template/u8/style/images/tenxun.jpg" alt="收听我们的腾讯微博" class="img-responsive"></a></li>
+<li><a href="javascript:window.external.addFavorite('http://x031.2014.hx008.com','U8商道网-淘宝网,天猫商城,爱淘网,网购首选-得商道，握天下！');"><img src="/Template/u8/style/images/nhad.png" alt="收藏淘购" class="img-responsive"></a></li> </ul>
+</div>
+</div>
+</div><!--padding5 end -->
+</div><!--top 结束-->
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 padding0 ">
+<div id="logo">
+<a href="/"><img src="/Template/u8/style/images/logo.gif" alt="" class="img-responsive" /></a>
+</div>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+<div class="paddingtop20">
+<a href="#">
+<img src="/Template/u8/style/images/ad2.jpg" alt="" class="img-responsive" />
+</a>
+</div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 padding0">
+<div class="nav_t"  style="padding-top:10px;">
+<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+<div class="nav-list">
+<span class="search">热门搜索:</span>
+<ul>
+<li><a href="#">服装</a>|</li>
+<li><a href="#">小吃</a>|</li>
+<li><a href="#">壁纸</a>|</li>
+<li><a href="#">视力保健</a>|</li>
+<li><a href="#">白酒</a></li>
+</ul>
+</div><!--nav-list end-->
+<div class="search_box pull-left">
+<form action="/search/SearchList.aspx " method="get">
+<div class="input-group">
+<input name="keyword" type="text" value="请输入关键词" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:100%;" />
+<span class="input-group-btn">
+<input type="submit" name="ButtonSo" value="搜索" id="ButtonSo" class="btn btn-danger" />
+</span>
+</div>
+</form>
+</div><!--search_box end -->
+</div><!--col-xs-12 end -->
+<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 padding0">
+<div  class="scrollbox" >
+<ul class="ad_li" id="gun">
+<li><a href="#"><img src="/Template/u8/style/images/ad2.jpg" alt="" class="img-responsive" /></a></li>
+<li><a href="#"><img src="/Template/u8/style/images/ad3.jpg" alt="" class="img-responsive" /></a></li>
+<li><a href="#"><img src="/Template/u8/style/images/ad2.jpg" alt="" class="img-responsive" /></a></li>
+<li><a href="#"><img src="/Template/u8/style/images/ad3.jpg" alt="" class="img-responsive" /></a></li>
+
+</ul>
+</div></div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="nav_bg">
+<div class="container">
+<div class="row">
+<div class="nav_b">
+<nav class="navbar navbar-default" role="navigation">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example">
+<div id="menu" class="menu">
+<ul class="nav navbar-nav">
+<li class="home"><a href="/">首 页</a></li>
+<li class="meuses2"><a href="/Class_2/Default.aspx?pid=574&GName=%e6%9c%8d%e9%a5%b0%e9%9e%8b%e5%8c%85" target="_blank">服饰鞋包</a></li>
+<li class="meuses3"><a href="/Class_3/Default.aspx?pid=584&GName=%e7%89%b9%e8%89%b2%e9%a4%90%e9%a5%ae" target="_blank">特色餐饮</a></li>
+<li class="meuses4"><a href="/Class_4/Default.aspx?pid=593&GName=%e7%be%8e%e5%ae%b9%e5%85%bb%e7%94%9f" target="_blank">美容养生</a></li>
+<li class="meuses5"><a href="/Class_5/Default.aspx?pid=602&GName=%e9%a5%b0%e5%93%81%e7%8e%a9%e5%85%b7" target="_blank">饰品玩具</a></li>
+<li class="meuses6"><a href="/Class_6/Default.aspx?pid=618&GName=%e5%ae%b6%e5%b1%85%e8%a3%85%e9%a5%b0" target="_blank">家居装饰</a></li>
+<li class="meuses7"><a href="/Class_7/Default.aspx?pid=618&GName=%e5%90%8d%e9%85%92%e4%bb%a3%e7%90%86" target="_blank">名酒代理</a></li>
+<li class="meuse13"><a href="/Class_13/Default.aspx?pid=625&GName=%e6%96%b0%e9%94%90%e8%bf%9e%e9%94%81" target="_blank">新锐连锁</a></li>
+<li class="meuses8"><a href="/Class_8/Default.aspx?pid=634&GName=%e7%bd%91%e7%bb%9c%e5%88%9b%e4%b8%9a" target="_blank">网络创业</a></li>
+<li class="meuses9"><a href="/Class_9/Default.aspx" target="_blank">视频专区</a></li>
+</ul>
+</div>
+</div><!-- /.navbar-collapse -->
+</nav>
+</div>
+</div>
+</div>
+</div> <!-- nav_bg end-->
+
+<!--主体开始 -->
+
+
+<table width="1068" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <th width="1068" height="319" scope="col" background="/Template/u8/style/images/rjn008.gif">&nbsp;</th>
+  </tr>
+</table>
+<table width="1068" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <th width="1068" bgcolor="#3399CC" scope="col"><table width="1066" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <th bgcolor="#FFFFFF" scope="col"><table width="1066" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <th width="4" rowspan="5" scope="col">&nbsp;</th>
+            <th width="881" height="47" scope="col" background="/Template/u8/style/images/rjn001.png"></th>
+            <th width="4" rowspan="5" scope="col">&nbsp;</th>
+            <th width="168" height="375" rowspan="6" scope="col" background="/Template/u8/style/images/rjn002.jpg"><table width="168" height="375" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <th width="10" height="45" scope="col">&nbsp;</th>
+                <th width="148" height="50" scope="col"><a href="/User/Login.aspx?ReturnUrl=" target="_blank"><img src="/Template/u8/style/images/rjn003.jpg" width="142" height="43" /></a></th>
+                <th width="10" scope="col">&nbsp;</th>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td height="78"></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="109">&nbsp;</td>
+                <td  height="50" rowspan="3" ><DIV><MARQUEE style="WIDTH: 150; HEIGHT: 243" scrollAmount=1 scrollDelay=77 direction=up width=150 height=243 onmouseout="this.start()" onmouseover="this.stop()">
+                  <p>青丝染霜 <font color="#F00">￥4134.49</font><br />
+                    陌若安生 <font color="#F00">￥4110.27</font><br />
+                    番茄操蛋 <font color="#F00">￥3534.98</font><br />
+                    秋水無痕 <font color="#F00">￥3124.19</font><br />
+                    不忘旧约 <font color="#F00">￥3110.81</font><br />
+                    众里寻她 <font color="#F00">￥2654.46</font><br />
+                    痛而不言 <font color="#F00">￥2434.17</font><br />
+                    妞笑一個 <font color="#F00">￥2334.89</font><br />
+                    醉夢仟年 <font color="#F00">￥2104.59</font><br />
+                    留　　恋 <font color="#F00">￥2101.99</font><br />
+                    我要成功 <font color="#F00">￥1934.09</font><br />
+                    奋　　斗 <font color="#F00">￥1794.41</font><br />
+                    网络赚钱 <font color="#F00">￥1532.21</font><br />
+                    对空远望 <font color="#F00">￥1438.29</font><br />
+                    墨化枯叶 <font color="#F00">￥1414.19</font><br />
+                    弹曲为锁 <font color="#F00">￥1068.88</font><br />
+                    眼泪肆意 <font color="#F00">￥992.87</font><br />
+                    黯然失色 <font color="#F00">￥970.86</font><br />
+                    独自过活 <font color="#F00">￥952.40</font><br />
+                    在劫难逃 <font color="#F00">￥932.19</font><br />
+                    昨日恋人 <font color="#F00">￥912.56</font><br />
+                    辗转寻找 <font color="#F00">￥852.02</font><br />
+                    纵里寻她 <font color="#F00">￥820.38</font><br />
+                    陌若安生 <font color="#F00">￥815.43</font><br />
+                    番茄操蛋 <font color="#F00">￥779.37</font><br />
+                    秋水無痕 <font color="#F00">￥763.79</font><br />
+                    不忘旧约 <font color="#F00">￥742.83</font><br />
+                    众里寻她 <font color="#F00">￥725.14</font><br />
+                    痛而不言 <font color="#F00">￥706.42</font><br />
+                    妞笑一個 <font color="#F00">￥683.04</font><br />
+                    醉夢仟年 <font color="#F00">￥662.43</font><br />
+                    留　　恋 <font color="#F00">￥608.79</font><br />
+                    我要成功 <font color="#F00">￥593.49</font><br />
+                    奋　　斗 <font color="#F00">￥556.38</font><br />
+                    网络赚钱 <font color="#F00">￥539.44</font><br />
+                    只为风飘 <font color="#F00">￥512.14</font><br />
+                    伊人远去 <font color="#F00">￥501.23</font><br />
+                    情深四溢 <font color="#F00">￥499.38</font><br />
+                    蓦然回首 <font color="#F00">￥461.58</font><br />
+                    曾经沧海 <font color="#F00">￥439.59</font><br />
+                    点到为止 <font color="#F00">￥403.13</font><br />
+                    笑魇如花 <font color="#F00">￥308.27</font><br />
+                    箴言时歆 <font color="#F00">￥265.89</font><br />
+                    对空远望 <font color="#F00">￥240.48</font><br />
+                    墨化枯叶 <font color="#F00">￥206.09</font><br />
+                    弹曲为锁 <font color="#F00">￥158.48</font><br />
+                    眼泪肆意 <font color="#F00">￥127.39</font><br />
+                    黯然失色 <font color="#F00">￥107.22</font><br />
+                    独自过活 <font color="#F00">￥96.69</font><br />
+                    在劫难逃 <font color="#F00">￥93.49</font><br />
+                    昨日恋人 <font color="#F00">￥89.73</font><br />
+                    辗转寻找 <font color="#F00">￥84.10</font><br />
+                    纵里寻她 <font color="#F00">￥82.99</font><br />
+ 
+                    <br />                    
+                    
+                    </p>
+                </MARQUEE>
+                </DIV></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="19">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="94">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </table></th>
+            <th width="9"  rowspan="9" scope="col" ></th>
+          </tr>
+          <tr>
+            <td height="2"><table width="878" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                </tr>
+            </table></td>
+            </tr>
+          <tr>
+            <td width="881" height="208"  background="/Template/u8/style/images/rjn006.jpg"></td>
+            </tr>
+          <tr>
+            <td height="19"></td>
+            </tr>
+          <tr>
+            <td width="881" height="50" background="/Template/u8/style/images/rjn007.jpg"></td>
+            </tr>
+          <tr>
+            <th rowspan="10" scope="col">&nbsp;</th>
+            <td rowspan="2" bgcolor="#FFCCFF"><h1><br>
+              <font color="#F00"><strong>提示：</strong></font></h1>
+              <pre><strong>    1、邀请好友：您每成功邀请一位好友拿<font color="#F00">0.2元</font>，多劳多得。
+               
+    2、会员等级：（不需要交纳任何代理费）
+       初级代理：<font color="#F00">10%</font>  商家后期续费享受提成<font color="#F00">2%</font>，  推广累计达到<font color="#F00">2000</font>元业绩自动升级为（VIP代理）；
+       VIP代理 ：<font color="#F00">20%</font>  商家后期续费享受提成<font color="#F00">4%</font>，  推广累计达到<font color="#F00">5000</font>元业绩自动升级为（钻石代理）；
+       钻石代理：<font color="#F00">35%</font>  商家后期续费享受提成<font color="#F00">8%</font>，  推广累计达到<font color="#F00">10000</font>元业绩自动升级为（至尊代理）；
+       至尊代理：<font color="#F00">50%</font>  商家后期续费享受提成<font color="#F00">10%</font>．</strong><br />
+    <strong>收益分析： 假设您是VIP代理级别，您成功推荐一位商家投放广告金额为1000元，1000*20%=200元;
+               如果商家后期续费系统按您当前级拿提成 1000*4%=40元，那么推荐这位商家您的收入为240元。
+               其他等级以此类推，推广越多，赚得越多，轻轻松松月入10000元收益。</strong>
+              </pre>
+              <p>                <br />
+              </p></td>
+            <th rowspan="10" scope="col">&nbsp;</th>
+          </tr>
+          <tr>
+            <td rowspan="3"><table width="168" height="358"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <th height="10" scope="col">&nbsp;</th>
+              </tr>
+              <tr>
+                <td><a href="http://www.u8u88.com" target="_blank"><img src="/Template/u8/style/images/rjn004.gif" width="164" height="340" /></a></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" bgcolor="#FFCCFF"><a href="/User/Login.aspx?ReturnUrl=" target="_blank"><img src="/Template/u8/style/images/rjn005.png" width="300" height="43" /></a></td>
+            </tr>
+          <tr>
+            <td align="center" valign="middle" bgcolor="#FFCCFF"><br />
+  <div class="bshare-custom icon-medium-plus"><a title="分享到" href="http://www.bShare.cn/" id="bshare-shareto" class="bshare-more">分享给朋友</a><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="分享到天涯" class="bshare-tianya"></a><a title="分享到i贴吧" class="bshare-itieba"></a><a title="分享到QQ好友" class="bshare-qqim"></a><a title="分享到淘江湖" class="bshare-taojianghu"></a><a title="分享到微信" class="bshare-weixin"></a><a title="分享到凤凰微博" class="bshare-ifengmb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/button.js#style=-1&amp;uuid=21e6a610-d026-4090-bec4-c82952f26ad1&amp;pophcol=1&amp;lang=zh"></script><a class="bshareDiv" onclick="javascript:return false;"></a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script> </td>
+            </tr>
+          <tr>
+            <td height="10" align="center" valign="middle" bgcolor="#FFCCFF">&nbsp;</td>
+            <td height="10">&nbsp;</td>
+            <th scope="col" ></th>
+          </tr>
+          <tr>
+            <td height="5" align="center" valign="middle">&nbsp;</td>
+            <td height="5">&nbsp;</td>
+            <th scope="col" ></th>
+          </tr>
+        </table></th>
+      </tr>
+    </table></th>
+  </tr>
+  <tr>
+    <th height="1" bgcolor="#3399CC" scope="col"><img src="" alt="" name="qwe" width="11" height="1" id="qwe" /></th>
+  </tr>
+</table>
+
+<!--内容主体结束 -->
+
+<!--[if lt IE 9]>  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>    <div style='width:740px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>      <div style='width:375px; float: left; font-family: Arial, sans-serif;'>        <div style='font-size: 14px; font-weight: bold; margin-top: 22px;'>浏览器版本过低-请使用Chrome或IE9以上版本浏览器！</div>        <div style='font-size: 12px; margin-top: 6px; line-height: 16px;'>为获得更优的体验请升级浏览器（360浏览器请选择极速模式）：</div>      </div>      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>      <div style='width: 75px; float: left;'><a href='http://windows.microsoft.com/en-us/internet-explorer/download-ie' target='_blank'><img src='http://code.zoomla.cn/ie9.jpg' style='border: none;' alt='下载最新Internet Explorer'/></a></div>      <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>    </div>  </div>  <![endif]-->
+
+
+<div class="foot">
+<div class="container padding0">
+<div class="foot_u8">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+<div class="u_tit"><strong>关于U8商道</strong></div>
+<div class="u_li">
+<ul>
+<li><a href="/Item/64.aspx">关于U8商道</a></li>
+<li><a href="/Item/69.aspx">法律声明</a></li>
+<li><a href="/Item/67.aspx">联系我们</a></li>
+<li><a href="/Item/65.aspx">广告服务</a></li>
+<li><a href="/Item/66.aspx">诚聘英才</a></li>
+<li><a href="/Item/68.aspx">网站地图</a></li>
+<li><a href="/guest/">查看留言</a></li>
+<li><a href="/Item/65.aspx">广告报价</a></li>
+<li><a href="/guest/">建议反馈</a></li>
+</ul>
+ </div>
+ </div> 
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12  text-center">
+<div class="u_tit"><strong>U8商道旗下网站</strong></div>
+<div class="u_imgs center-block text-center">
+<ul class="padding0"> 
+<li class="center-block text-center"><a href="/"><img src="/Template/u8/style/images/logo.gif" alt="" class="img-responsive" /></a></li>
+<li class="center-block text-center"><a href="http://www.1ytgw.com/" target="_blank"><img src="/Template/u8/style/images/logo_t.gif" alt="" class="img-responsive" /></a></li>
+</ul>
+ </div>
+
+</div> 
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+<div class="u_tit"><strong>商机智取 成功有道</strong></div>
+<div class="u_p">
+<p>
+想自己做生意？想做加盟商？想做代理商？<br/>
+想投资开店？想做连锁经营？上U8商道网找<br/>
+优质赚钱项目 一网搞定
+</p> 
+</div>
+</div>
+<div class="clearfix"></div> 
+</div>
+<div class="frend_link_tit"><strong>友情链接</strong></div>
+<div class="frend_link_li">
+<ul>
+
+<li><a href="http://hx008.com" target="_blank" title="华夏互联">华夏互联 </a></li>
+
+<li><a href="http://zoomla.cn" target="_blank" title="逐浪软件">逐浪软件 </a></li>
+
+</ul>
+ </div>
+ </div>
+ <div class="clearfix"></div>
+ </div>
+  
+ <!--botttom_box end -->
+ <div class="copyright_bg">
+ <div class="copyright container">
+<p><span>客服热线：400 997 5002 </span>Copyright &copy; u8u88.com All rights reserved  ICP备88888888号</p>
+</div><!--copyright end -->
+</div>
+ <div class="clearfix"></div>
+<div class="footercos">
+<p><a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005072000536"><img src="/Template/u8/style/images/foot1.png"> </a>
+<a target="_blank" href="https://ss.knet.cn/verifyseal.dll?sn=2011040700100007762&ct=df&pa=155777"><img src="/Template/u8/style/images/foot6.png"> </a>
+<a target="_blank" href="https://search.szfw.org/cert/l/CX20121224002111002168"><img src="/Template/u8/style/images/foot7.png"></a></p>
+</div><!--footercos end -->
+<script type="text/javascript" src="/Template/u8/style/js/jquery.rollGallery_yeso.js"></script>
+<script type="text/javascript">$(document).ready(function($){
+	
+	$("#gun").rollGallery({
+		direction:"left",
+		speed:50,
+		showNum:9
+	});
+	});
+    </script>	
+
+ <script>
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "请输入关键词") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "请输入关键词";
+	}
+}
+
+ </script>
+
+
+</body>
+</html>

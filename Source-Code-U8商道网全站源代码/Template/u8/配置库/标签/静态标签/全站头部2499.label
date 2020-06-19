@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>762</LabelID>
+    <LabelName>全站头部2499</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="top_box"&gt;
+&lt;div class="container padding0"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  pull-left"&gt;
+&lt;ul class="top_li"&gt;
+&lt;li&gt;&lt;a href="/user/" target="_blank"&gt;登录&lt;/a&gt;&lt;span class="line"&gt;|&lt;/span&gt;&lt;/li&gt;  
+&lt;li&gt;&lt;a href="/User/Register.aspx" target="_blank"&gt;注册会员&lt;/a&gt;&lt;span class="line"&gt;|&lt;/span&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank"&gt;创业资讯&lt;/a&gt;&lt;span class="line"&gt;|&lt;/span&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href="#"&gt;展会网&lt;/a&gt;&lt;span class="line"&gt;|&lt;/span&gt;&lt;/li&gt; 
+&lt;li class="dropdown"&gt;&lt;a href="#" class="dropdown-toggle dh" data-toggle="dropdown"&gt;行业频道 &lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+&lt;ul class="dropdown-menu"&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank"&gt;新闻中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(1)/}" target="_blank"&gt;创业资讯&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;/ul&gt; 
+&lt;/div&gt;
+&lt;div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " &gt;
+&lt;ul class="top_li2"&gt;
+&lt;li&gt;&lt;a  href="#"&gt;&lt;img src="{$CssDir/}images/top-wx.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://weibo.com/zoomlacms" target="_blank" title="收听我们的新浪微博"&gt;&lt;img src="{$CssDir/}images/sina.jpg" alt="收听我们的新浪微博" class="img-responsive"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://t.qq.com/wwwwzf" target="_blank" title="收听我们的腾讯微博"&gt;&lt;img src="{$CssDir/}images/tenxun.jpg" alt="收听我们的腾讯微博" class="img-responsive"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="jion"&gt;|&lt;a href="javascript:window.external.addFavorite('{$SiteURL/}','{$SiteName/}');"&gt;加入收藏夹&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!--padding5 end --&gt;
+&lt;/div&gt;&lt;!--top 结束--&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 padding0 "&gt;
+&lt;div id="logo"&gt;
+&lt;a href="/"&gt;&lt;img src="{$CssDir/}images/logo.gif" alt="" class="img-responsive" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"&gt;
+&lt;div class="paddingtop20"&gt;
+&lt;a href="#"&gt;
+&lt;img src="{$CssDir/}images/ad2.jpg" alt="" class="img-responsive" /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 padding0"&gt;
+&lt;div class="nav_t"  style="padding-top:10px;"&gt;
+&lt;div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"&gt;
+&lt;div class="nav-list"&gt;
+&lt;span class="search"&gt;热门搜索:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#"&gt;服装&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;小吃&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;壁纸&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;视力保健&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;白酒&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;!--nav-list end--&gt;
+&lt;div class="search_box pull-left"&gt;
+&lt;form action="/search/SearchList.aspx " method="get"&gt;
+&lt;div class="input-group"&gt;
+&lt;input name="keyword" type="text" value="请输入关键词" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:100%;" /&gt;
+&lt;span class="input-group-btn"&gt;
+&lt;input type="submit" name="ButtonSo" value="搜索" id="ButtonSo" class="btn btn-danger" /&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;!--search_box end --&gt;
+&lt;/div&gt;&lt;!--col-xs-12 end --&gt;
+&lt;div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 padding0"&gt;
+&lt;div  class="scrollbox" &gt;
+&lt;ul class="ad_li" id="gun"&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad2.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad3.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad2.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad3.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+
+ &lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="nav_bg"&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;div class="nav_b"&gt;
+&lt;nav class="navbar navbar-default" role="navigation"&gt;
+&lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+&lt;div class="navbar-header"&gt;
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"&gt;
+&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;/div&gt;
+&lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+&lt;div class="collapse navbar-collapse" id="bs-example"&gt;
+&lt;div id="menu" class="menu"&gt;
+&lt;ul class="nav navbar-nav"&gt;
+&lt;li class="home"&gt;&lt;a href="/"&gt;首 页&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses2"&gt;&lt;a href="{ZL:GetNodeLinkUrl(2)/}?pid=574&amp;GName={$GetUrlencode(服饰鞋包)$}" target="_blank"&gt;服饰鞋包&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses3"&gt;&lt;a href="{ZL:GetNodeLinkUrl(3)/}?pid=584&amp;GName={$GetUrlencode(特色餐饮)$}" target="_blank"&gt;特色餐饮&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses4"&gt;&lt;a href="{ZL:GetNodeLinkUrl(4)/}?pid=593&amp;GName={$GetUrlencode(美容养生)$}" target="_blank"&gt;美容养生&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses5"&gt;&lt;a href="{ZL:GetNodeLinkUrl(5)/}?pid=602&amp;GName={$GetUrlencode(饰品玩具)$}" target="_blank"&gt;饰品玩具&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses6"&gt;&lt;a href="{ZL:GetNodeLinkUrl(6)/}?pid=618&amp;GName={$GetUrlencode(家居装饰)$}" target="_blank"&gt;家居装饰&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses7"&gt;&lt;a href="{ZL:GetNodeLinkUrl(7)/}?pid=618&amp;GName={$GetUrlencode(名酒代理)$}" target="_blank"&gt;名酒代理&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuse13"&gt;&lt;a href="{ZL:GetNodeLinkUrl(13)/}?pid=625&amp;GName={$GetUrlencode(新锐连锁)$}" target="_blank"&gt;新锐连锁&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses8"&gt;&lt;a href="{ZL:GetNodeLinkUrl(8)/}?pid=634&amp;GName={$GetUrlencode(网络创业)$}" target="_blank"&gt;网络创业&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses9"&gt;&lt;a href="{ZL:GetNodeLinkUrl(9)/}" target="_blank"&gt;视频专区&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; &lt;!-- nav_bg end--&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

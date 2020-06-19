@@ -1,0 +1,189 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>697</LabelID>
+    <LabelName>全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;!--[if lt IE 9]&gt;  &lt;div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'&gt;    &lt;div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'&gt;&lt;a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'&gt;&lt;img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/&gt;&lt;/a&gt;&lt;/div&gt;    &lt;div style='width:740px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'&gt;      &lt;div style='width: 75px; float: left;'&gt;&lt;img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/&gt;&lt;/div&gt;      &lt;div style='width:375px; float: left; font-family: Arial, sans-serif;'&gt;        &lt;div style='font-size: 14px; font-weight: bold; margin-top: 22px;'&gt;当前浏览器版本过低-请使用IE9或360以上版本浏览器！&lt;/div&gt;        &lt;div style='font-size: 12px; margin-top: 6px; line-height: 16px;'&gt;为获得更优的体验请升级浏览器（360浏览器请选择极速模式）：&lt;/div&gt;      &lt;/div&gt;      &lt;div style='width: 75px; float: left;'&gt;&lt;a href='http://dlsw.baidu.com/sw-search-sp/soft/51/11843/Firefox-setup30.0.0.5269.1402457016.exe' target='_blank'&gt;&lt;img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/&gt;&lt;/a&gt;&lt;/div&gt;      &lt;div style='width: 75px; float: left;'&gt;&lt;a href='http://dlsw.baidu.com/sw-search-sp/soft/3c/23356/BOIE9_ZHCN_BO0085_WIN7.2197728620.EXE' target='_blank'&gt;&lt;img src='http://code.zoomla.cn/ie9.jpg' style='border: none;' alt='下载最新Internet Explorer'/&gt;&lt;/a&gt;&lt;/div&gt;      &lt;div style='width: 73px; float: left;'&gt;&lt;a href='http://down.360safe.com/cse/360cse_7.5.3.182.exe' target='_blank'&gt;&lt;img src='/Template/u8/style/images/360iyjtkkd.png' style='border: none;' alt='360se6_6.3.1.196'/&gt;&lt;/a&gt;&lt;/div&gt;      &lt;div style='float: left;'&gt;&lt;a href='http://dlsw.baidu.com/sw-search-sp/soft/9d/14744/ChromeStandaloneSetup35.0.1916.114.1401167998.exe' target='_blank'&gt;&lt;img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/&gt;&lt;/a&gt;&lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;  &lt;![endif]--&gt;
+
+
+
+
+
+&lt;script&gt;
+/*微信*/
+   function Micro(){
+ 	 document.getElementById("Micro_l").style.display="block";
+	 }
+	  function Micro_none(){
+ 	 document.getElementById("Micro_l").style.display="none";
+	 }
+&lt;/script&gt;
+&lt;style&gt;#bs-example .home a{ color:#FF0;}&lt;/style&gt;
+
+
+
+&lt;!--top--&gt;
+&lt;div class="top_box"&gt;
+&lt;div class="container padding0"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-5 col-md-5 col-sm-5 col-xs-12  pull-left padding0"&gt;
+&lt;div class="padding0 login"&gt;&lt;iframe src="/login.aspx" frameborder="0" height="30px" width="100%" scrolling="no" allowtransparency="true"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-2 col-md-2 col-sm-2 col-xs-12  pull-left padding0 lines"&gt;
+&lt;li class="pull-left"&gt;&lt;a href="/User/Login.aspx?ReturnUrl=" target="_blank"&gt;免费发布广告&lt;/a&gt;&lt;span class="line"&gt;|&lt;/span&gt;&lt;/li&gt; 
+&lt;li class="dropdown pull-left"&gt;&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;网站导航&lt;b class="caret"&gt;&lt;/b&gt;&lt;/a&gt;
+&lt;ul class="dropdown-menu" role="menu"&gt;
+&lt;li&gt;&lt;a href="/class_1/default.aspx" target="_blank"&gt;U8资讯网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_54/Default.aspx" target="_blank"&gt;U8导航站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_55/Default.aspx" target="_blank"&gt;邀请有奖&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.1ytgw.com" target="_blank"&gt;1元淘购&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_70/Default.aspx" target="_blank"&gt;网店免费收录&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_72/Default.aspx" target="_blank"&gt;U8网络电视&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Item/395.aspx" target="_blank"&gt;帮助中心&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/div&gt;
+ 
+&lt;div class="col-lg-5 col-md-5 col-sm-5 col-xs-12"&gt;
+&lt;ul class="top_li2"&gt;
+&lt;li class="Micro"&gt;&lt;a  href="{$CssDir/}Images/top-wx.jpg"&gt;&lt;img src="{$CssDir/}images/top-wx.jpg" id="Micro1" alt="微信" onMouseMove="Micro()"  alt="" class="img-responsive" /&gt;&lt;/a&gt;
+&lt;div id="Micro_l" style="display:none;"  onMouseMove="Micro()" onMouseout="Micro_none()" &gt;
+&lt;div class="Mic_l"&gt; &lt;img src="{$CssDir/}Images/u8wythltth.jpg" /&gt;&lt;/div&gt;
+&lt;div class="Mic_r"&gt;
+&lt;ul&gt;
+&lt;li&gt;打开微信:&lt;/li&gt;
+&lt;li&gt;1.选择微信,扫一扫&lt;/li&gt;
+&lt;li&gt;2.添加好友",jianypng&lt;/li&gt;
+&lt;li&gt;3.微信号:jianypng&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://weibo.com/1ytgw" target="_blank" title="收听我们的新浪微博"&gt;&lt;img src="{$CssDir/}images/sina.jpg" alt="收听我们的新浪微博" class="img-responsive"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://t.qq.com/yytgww" target="_blank" title="收听我们的腾讯微博"&gt;&lt;img src="{$CssDir/}images/tenxun.jpg" alt="收听我们的腾讯微博" class="img-responsive"&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;img src="{$CssDir/}images/ptebrvxg008.png" alt="有问题请联系我们" class="img-responsive"&gt;&lt;/li&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!--padding5 end --&gt;
+&lt;/div&gt;&lt;!--top 结束--&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 padding0 "&gt;
+&lt;div id="logo"&gt;
+&lt;a href="/"&gt;&lt;img src="{$CssDir/}images/logo.gif" alt="" class="img-responsive" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"&gt;
+&lt;div class="paddingtop20"&gt;
+&lt;a href="/Class_55/Default.aspx" target="_blank"&gt;
+&lt;img src="{$CssDir/}images/udukyytfltsf.jpg" alt="" class="img-responsive" /&gt;
+&lt;/a&gt;
+&lt;a href="/Class_72/Default.aspx" title="U8推网络电视是全球第一家集P2P直播点播于一身的网络电视网站.能够在线收看电影电视剧、体育直播、游戏竞技、动漫、综艺、新闻、财经资讯……播放流畅、完全免费,是网民喜爱的免费网络电视直播网站."  target="_blank"&gt;&lt;font color="#F00"&gt;网络点播&lt;/font&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 padding0"&gt;
+&lt;div class="nav_t"  style="padding-top:10px;"&gt;
+&lt;div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"&gt;
+&lt;div class="nav-list"&gt;
+&lt;span class="search"&gt;热门搜索:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Class_2/NodePage.aspx?GName=%e5%a5%b3%e8%a3%85&amp;pid=574" target="_blank"&gt;女装&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_2/NodePage.aspx?GName=%e7%94%b7%e8%a3%85&amp;pid=574" target="_blank"&gt;男装&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_4/Default.aspx?pid=593&amp;GName=美容美体" target="_blank"&gt;美容&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_2/NodePage.aspx?GName=数码影像&amp;pid=602" target="_blank"&gt;数码&lt;/a&gt;|&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_2/NodePage.aspx?GName=家具系列&amp;pid=607" target="_blank"&gt;家居&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;!--nav-list end--&gt;
+&lt;div class="search_box pull-left"&gt;
+&lt;form action="/search/SearchList.aspx " method="get"&gt;
+&lt;div class="input-group"&gt;
+&lt;input name="keyword" type="text" value="请输入关键词" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:100%;" /&gt;
+&lt;span class="input-group-btn"&gt;
+&lt;input type="submit" name="ButtonSo" value="搜索" id="ButtonSo" class="btn btn-danger" /&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;&lt;!--search_box end --&gt;
+&lt;/div&gt;&lt;!--col-xs-12 end --&gt;
+&lt;div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 padding0"&gt;
+&lt;div  class="scrollbox" &gt;
+&lt;ul class="ad_li" id="gun"&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad2.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad3.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad2.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;&lt;img src="{$CssDir/}images/ad3.jpg" alt="" class="img-responsive" /&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="nav_bg"&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;div class="nav_b"&gt;
+&lt;nav class="navbar navbar-default" role="navigation"&gt;
+&lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+&lt;div class="navbar-header"&gt;
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"&gt;
+&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;/div&gt;
+&lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+&lt;div class="collapse navbar-collapse" id="bs-example"&gt;
+&lt;div id="menu" class="menu"&gt;
+&lt;ul class="nav navbar-nav"&gt;
+&lt;li class="home"&gt;&lt;a href="/"&gt;首 页&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses2" id="meuse574"&gt;&lt;a href="{ZL:GetNodeLinkUrl(2)/}?pid=574&amp;GName={$GetUrlencode(潮流服饰)$}" target="_blank"&gt;潮流服饰&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses3" id="meuse584"&gt;&lt;a href="{ZL:GetNodeLinkUrl(3)/}?pid=584&amp;GName={$GetUrlencode(名鞋箱包)$}" target="_blank"&gt;名鞋箱包&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses4" id="meuse593"&gt;&lt;a href="{ZL:GetNodeLinkUrl(4)/}?pid=593&amp;GName={$GetUrlencode(美容美体)$}" target="_blank"&gt;美容美体&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses5" id="meuse602"&gt;&lt;a href="{ZL:GetNodeLinkUrl(5)/}?pid=602&amp;GName={$GetUrlencode(数码家电)$}" target="_blank"&gt;数码家电&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses6" id="meuse607"&gt;&lt;a href="{ZL:GetNodeLinkUrl(6)/}?pid=607&amp;GName={$GetUrlencode(家居饰品)$}" target="_blank"&gt;家居饰品&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses7" id="meuse618"&gt;&lt;a href="{ZL:GetNodeLinkUrl(7)/}?pid=618&amp;GName={$GetUrlencode(母婴玩具)$}" target="_blank"&gt;母婴玩具&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuse13" id="meuse625"&gt;&lt;a href="{ZL:GetNodeLinkUrl(8)/}?pid=625&amp;GName={$GetUrlencode(时尚礼品)$}" target="_blank"&gt;时尚礼品&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses8" id="meuse634"&gt;&lt;a href="{ZL:GetNodeLinkUrl(13)/}?pid=634&amp;GName={$GetUrlencode(网店代理)$}" target="_blank"&gt;网店代理&lt;/a&gt;&lt;/li&gt;
+&lt;li class="meuses9"&gt;&lt;a href="{ZL:GetNodeLinkUrl(9)/}" target="_blank"&gt;视频专区&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; &lt;!-- nav_bg end--&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

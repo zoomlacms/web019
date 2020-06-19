@@ -1,0 +1,173 @@
+﻿{ZL.Source id="标准黄页申请信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/{$CssDir/}images/win8_symbol_140x140.png"/>
+<title>{SField sid="标准黄页申请信息数据源" FD="CompanyName" page="0"/}</title> 
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style>.nav_list .home0 a{text-decoration:none;color:#C40000;text-align:center;} 
+.nav-list .home1  a { padding:0px 10px; font-size:24px;color:#Fff;}
+</style>
+</head> 
+<body> 
+<div class="page_topbox">
+<div class="container padding0">
+<div class="page_logo"><a href="/Page/Default.aspx?pageid={SField sid="标准黄页申请信息数据源" FD="id" page="0"/}"><img src="{ZL:GetPicUrl({SField sid="标准黄页申请信息数据源" FD="logo" page="0"/})/}" class="img-responsive"></a></div><!--page_banner end -->
+</div><!--padding0 end -->
+</div><!--page_topbox end -->
+<div class="navbar-default" id="top_nav">
+<div class="container padding0">
+<div class="row margin0">
+<div class="navbar" role="navigation">
+<div class="container padding0">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav nav_list">
+<li><a href="/" target="_blank">网站首页</a></li>
+<li class="home0"><a href="/Page/Default.aspx?pageid={$GetRequest(pageid)$}" target="_blank"> 首页</a></li>
+<li class="home1"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=5" target="_blank">公司介绍</a></li>
+<li class="home2"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=2" target="_blank"> 产品展示</a></li>
+<li class="menus3"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=3" target="_blank">招商政策</a></li>
+<li class="menus4"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=4" target="_blank">新闻中心</a></li>
+<li class="menus6"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=6" target="_blank">投资考察会</a></li>
+<li class="menus7"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=7" target="_blank">信誉认证</a></li>
+<li class="menus8"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=8" target="_blank">成功案例</a></li>
+<li class="menus9"><a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=9" target="_blank">联系我们</a></li>
+</ul>
+</div><!--scolls end -->
+</div>
+</div>
+</div><!--navbar_sy end -->
+</div><!--row end -->
+<!-- 导航结束 -->
+</div><!--container end -->
+<div class="container">
+<div class="row">
+<div class="top_xian">
+<ul>
+{ZL.Label id="输出黄页项目列表" Titlenum="14" ShowNum="15" Inputer="{SField sid="标准黄页申请信息数据源" FD="UserName" page="0"/}" NodeID="2" /}
+</ul>
+</div>
+</div>
+</div>
+<div class="container padding0">
+<div class="page_li">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 padding5 myContent_lbox">
+ 
+<div class="topic_list">
+<div class="title_list"><strong>企业信息</strong></div><!--topic end -->
+<div class="c_box">
+<div class="type_li">
+<ul class="padding0"> 
+ <li><strong>企业名称：</strong>{SField sid="标准黄页申请信息数据源" FD="companyName" page="0"/}</li>
+ <li><strong>项目类型：</strong>{SField sid="标准黄页申请信息数据源" FD="lb" page="0"/}</li>
+ <li><strong>诚信指数：</strong>5</li>
+  <li><strong>项目评级：</strong> ★★★★★</li>
+  </ul>
+</div><!--topic_li end --></div><!--topic_li end -->
+<div class="clearfix"></div>
+</div><!--topic_list end -->
+<div class="topic_list">
+<div class="title_list"><strong>{SField sid="标准黄页申请信息数据源" FD="companyName" page="0"/}介绍</strong></div><!--topic end -->
+<div class="c_box">
+<p>{SField sid="标准黄页申请信息数据源" FD="PageInfo" page="0"/}<a href="/Page/pagelist.aspx?pageid={$GetRequest(pageid)$}&NodeID=5" target="_blank">详情介绍>></a></p>
+<div class="clearfix"></div>
+</div><!--topic_list end -->
+ 
+<div class="clearfix"></div>
+</div><!--topic_list end -->
+
+
+<div class="topic_list">
+<div class="title_list"><strong>企业宣传片集锦</strong></div><!--topic end -->
+<div class="c_box" style="min-height:200px;">
+ 
+ 
+ <div class="clearfix"></div>
+</div></div><!--topic_list end -->
+
+
+<div class="topic_list">
+<div class="title_list"><strong>投资考察联系电话</strong></div><!--topic end -->
+<div class="c_box">
+<p>{SField sid="标准黄页申请信息数据源" FD="Tel" page="0"/} </p>
+<div class="clearfix"></div>
+</div><!--topic_list end -->
+ 
+<div class="clearfix"></div>
+</div>
+
+
+
+<div class=" clearfix"></div>
+</div><!-- content-l end-->
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 content-ri" >
+<div class="main2_right">
+<div class="Recommend">
+<div class="Recommend_list"><strong>热门推荐</strong></div><!--topic end -->
+<div class="Recommend_li">
+<ul class="padding0">  
+{ZL.Label id="输出黄页类别_无分页推荐" Titlenum="20" ShowNum="3" Inputer="{SField sid="标准黄页申请信息数据源" FD="UserName" page="0"/}" NodeID="2" synnum="30" /}
+</ul><div class="clearfix"></div>
+</div><!--Recommend_li end -->
+</div><!--Recommend end -->
+<div class="main_ad">
+<ul class="padding0">  
+<li><a href="#" target="_blank"><img src="{$CssDir/}images/right_ad.jpg" class="img-responsive"></a></li>
+<li><a href="#" target="_blank"><img src="{$CssDir/}images/right_ad1.jpg" class="img-responsive"></a></li>
+</ul></div><!-- main_ad end-->
+<div class="project_list">
+<div class="Recommend_list"><b>共<em>123</em>个项目</b><strong>所有项目</strong></div><!--topic end -->
+<div class="project_li">
+{ZL.Label id="输出黄页类别_带分页" Titlenum="30" ShowNum="12" Inputer="{SField sid="标准黄页申请信息数据源" FD="UserName" page="0"/}" NodeID="2" /}
+<div class="clearfix"></div>
+</div><!--Recommend_li end -->
+</div><!--"project_list end -->
+
+
+
+
+</div><!--main2_right end -->
+
+</div><!-- content-m end-->
+
+
+<!-- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class=" clearfix"></div>
+</div>
+</div><!--padding0 end -->
+
+{ZL.Label id="全站底部"/}
+
+<script src="../../../JS/jquery-1.9.1.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

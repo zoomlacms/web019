@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Microblog_DataCommon, App_Web_5kosraee" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

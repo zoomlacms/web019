@@ -1,0 +1,47 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+</style>
+</head>
+<body>
+ <div class="tables_u margintop10">
+ <div class="alert alert-warning" role="alert"> 
+<ul> <li>佣金总额：<strong>{ZL.Label id="输出当前用户余额"/}</strong>元    </li>
+<li>为确保您申请的金额能够正确无误的转入您的账户，请填写真实有效的账户信息，以下信息均为必填项。</li>
+ </ul>
+  </div>
+
+<form name="form8" method="post" action="/PubAction.aspx">
+<input type="hidden" name="PubID" id="PubID" value="8">
+<input type="hidden" name="PubContentid" id="PubContentid" value="{PubContentid/}"> 
+<input type="hidden" name="PubContent" cols="50" rows="10" id="PubContent" value="提现申请"> 
+<input type="hidden" name="PubTitle" size="10" value="提现申请">
+<table width="100%" class="tabt">
+<tr><td colspan="2">佣金余额：{ZL.Label id="输出当前用户余额"/}元  余额满10元时才可申请提现</td></tr>
+<tr><td width="120" class="rights">申请提现金额：</td><td><input type="text" name="Price" >元 <strong>*</strong> 请输入提现金额</td></tr>
+<tr><td class="rights">开户人：</td><td><input type="text" name="Person"><strong>*</strong>请输入开户人</td></tr>
+<tr><td class="rights">银行名称：</td><td><input type="text" name="Blanks" ><strong>*</strong>请输入银行名称</td></tr>
+<tr><td class="rights">开户支行：</td><td><input type="text" name="zhi"><strong>*</strong>请输入开户支行</td></tr>
+<tr><td class="rights">银行帐号：</td><td><input type="text" name="BCode" ><strong>*</strong>请输入银行帐号</td></tr>
+<tr><td class="rights">联系电话：</td><td><input type="text" name="Tel"><strong>*</strong>请输入联系电话</td></tr>
+<tr><td colspan="2"> <input type="submit" name="button2" id="button2" class="butsss" value="提交"></td></tr>
+</table>
+</form>
+</div>
+
+ 
+ 
+ </body>
+</html>

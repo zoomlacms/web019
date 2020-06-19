@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>776</LabelID>
+    <LabelName>输出推广的商家列表分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_C_ads</LabelTable>
+    <LabelField>*</LabelField>
+    <LabelWhere />
+    <LabelOrder>Price DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;tr&gt;&lt;td&gt;{Field="ShopName"/}&lt;/td&gt;&lt;td&gt;{Field="Dai"/}&lt;/td&gt;&lt;td&gt; {Field="Price"/}&lt;/td&gt;
+&lt;td&gt;{Field="yj"/}&lt;/td&gt;&lt;/tr&gt;
+{/Repeate}
+ &lt;tr&gt;&lt;td colspan="4"&gt; {ZL.Page/}&lt;/td&gt;&lt;/tr&gt;
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

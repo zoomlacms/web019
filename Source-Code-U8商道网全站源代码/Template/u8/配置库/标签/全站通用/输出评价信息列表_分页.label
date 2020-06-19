@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>795</LabelID>
+    <LabelName>输出评价信息列表_分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>Gid,1,1,内容ID|ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_Comment</LabelTable>
+    <LabelField>CommentTime,Contents,GeneralID,pid,Score,status,Title,UserID</LabelField>
+    <LabelWhere>GeneralID='@Gid'</LabelWhere>
+    <LabelOrder>CommentTime DESC</LabelOrder>
+    <LabelContent>&lt;ul&gt;
+{Repeate}
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;发布时间：{ZL:FormatDate({Field="CommentTime"/},yyyy-MM-dd)/}&lt;/span&gt;评价人：{ZL.Label id="根据用户id输出用户名" UserID="{Field="UserID"/}" /} {ZL.Label id="输出当前登录用户头像"/}&lt;/p&gt;
+&lt;div class="pingjias"&gt;
+{Field="Contents"/}
+&lt;/div&gt;
+&lt;/li&gt;
+{/Repeate}
+&lt;/ul&gt;
+{ZL.Page/}
+
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

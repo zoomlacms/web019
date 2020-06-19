@@ -1,0 +1,105 @@
+﻿* { padding:0; margin:0;}
+body{font-size:12px; margin:0px; padding:0px;} 
+ul,li{padding:0px; margin:0px; list-style:none;}
+a{text-decoration:none; color:#003399;}
+a:hover { text-decoration:underline }
+img{border:none;}
+.clear{clear:both;}
+.border { border-collapse:collapse;}
+.fl {float:left;}
+.fr {float:right;}
+.tdbg{ background:#e7f3ff;}
+.tdbgmouseover{ background:#deebf4;}
+ 
+a{blr:expression(this.onFocus=this.blur());outline:none;}
+
+/*top*/
+.oatop{ background:url(/MIS/ZLOA/Images/topbg.jpg) repeat-x; height:86px;}
+#logo{ width:303px;padding-top:18px; padding-left:38px;}
+.system{ padding-top:34px;}
+.system span { margin-left:24px;font-size:24px;font-family:'Microsoft YaHei'; color:#3F96D1;}
+.informtion { padding-top:34px;}
+.informtion p{ margin-left:50px; width:280px; color:#3F96D1; font-size:12px;}
+.set{ margin-top:5px; width:360px; border-bottom:1px solid #C3C3FB; height:28px;border-left:1px solid #C3C3FB; border-bottom-left-radius:4px;}
+.set li { float:left; margin-left:20px; margin-top:3px;}
+.set li a{ font-size:12px;}
+.setli { background:url(/MIS/ZLOA/Images/set.jpg) left no-repeat; padding-left:18px;}
+.useli { background:url(/MIS/ZLOA/Images/use.jpg) left no-repeat; padding-left:18px;}
+.helpli { background:url(/MIS/ZLOA/Images/help.jpg) left no-repeat; padding-left:18px;}
+.logout { background:url(/MIS/ZLOA/Images/logout.jpg) left no-repeat; padding-left:18px;}
+
+/*nav*/
+.oanav{ background:url(/MIS/ZLOA/Images/navbg.jpg) repeat-x; height:34px;}
+.oanav li{ float:left; margin-left:20px; margin-right:50px; line-height:30px;padding-left:28px;}
+.oanav li a { color:#fff; font-family:'Microsoft YaHei'; font-weight:bold;}
+.navhome{ background:url(/MIS/ZLOA/Images/navhome.png) left no-repeat;}
+.navtong{ background:url(/MIS/ZLOA/Images/tong.png) left no-repeat;}
+.navhui{ background:url(/MIS/ZLOA/Images/navhui.png) left no-repeat;}
+.navgong{ background:url(/MIS/ZLOA/Images/navgong.png) left no-repeat;}
+.navuser{ background:url(/MIS/ZLOA/Images/navuser.png) left no-repeat;}
+.navnus{ background:url(/MIS/ZLOA/Images/navnus.png) left no-repeat;}
+.navtask{ background:url(/MIS/ZLOA/Images/navtask.png) left no-repeat;}
+.navsign{ background:url(/MIS/ZLOA/Images/navsign.png) left no-repeat;}
+
+/*left*/
+.oamain_left{ width:260px; padding:10px;height:auto; border: #D5D5FD 1px solid; background: #F7F7FF; color: #333; filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090, direction=120, strength=4);/*ie*/
+-moz-box-shadow: 2px 2px 10px #D5D5FD;/*firefox*/ -webkit-box-shadow: 2px 2px 10px #D5D5FD;/*safari或chrome*/ box-shadow: 2px 2px 10px #D5D5FD;/*opera或ie9*/ border-radius: 3px; }
+.left_user,.commonuser{ border:1px solid #D9D9FE; background:#ECECFF; padding:10px;}
+.userinfo{ font-size:12px; font-family:'Microsoft YaHei'; line-height:30px; color:#4242A7;}
+.duty_t{ background:url(/MIS/ZLOA/Images/duty.png) left no-repeat; height:41px; padding-left:52px;}
+.duty_tp{ background:url(/MIS/ZLOA/Images/dutybg.gif) repeat-x;height:41px; line-height:41px; font-family:'Microsoft YaHei';}
+.duty_c{ background:#FFF; color:#FF0000; padding:5px; font-size:12px;}
+.duty_c p{ margin-bottom:25px;}
+.duty_c span{ line-height:22px;}
+.oaarrow{display:block; width:15px; height:15px; background:url(/MIS/ZLOA/Images/arrow.png) no-repeat; margin-top:13px;}
+.oaarrowDown{display:block; width:15px; height:15px; background:url(/MIS/ZLOA/Images/arrowdown.png) no-repeat; margin-top:13px;}
+.fork{display:block; width:15px; height:15px; background:url(/MIS/ZLOA/Images/fork.png) no-repeat;margin-top:13px; margin-right:5px;margin-left:2px;}
+.commonuser{ margin-top:10px;}
+.common_t{ background:url(/MIS/ZLOA/Images/commonuser.png) left no-repeat; height:41px; padding-left:52px;}
+.common_c{ background:#fff; padding-top:15px;padding-left:15px;padding-right:15px; padding-bottom:5px;}
+.common_c li{ margin-bottom:10px;}
+.common_c li a{ padding-left:10px; font-family:'Microsoft YaHei' ;font-size:18px; color:#4B4B4B;}
+.ask{ border:1px solid #35358A;}
+.ask li{ background:url(/MIS/ZLOA/Images/asklibg.jpg) no-repeat; height:47px; line-height:47px; text-align:center;}
+.ask li a{ font-family:'Microsoft YaHei'; color:#27276C; font-size:24px;}
+.history_t{ background:url(/MIS/ZLOA/Images/history.png) left no-repeat; height:41px; padding-left:52px;}
+.history_c{ background:#FFF; padding:15px;}
+.history_c li { width:80px; float:left;}
+.history_c li a { font-family:'Microsoft YaHei'; font-size:12px;color:#4343A8;}
+.oaarrow:hover,.oaarrowDown:hover,.fork:hover,.m_close{ cursor:pointer;}
+
+.more {float:right;position:relative;bottom:10px;margin-right:20px;}
+.columns li {position: absolute;cursor: move;width:49%;border:solid 1px white;height:300px; border:1px solid #EBEBFF; border-radius:4px; padding:10px; background:#fff;}
+/*.widget a img {height:65px;width:80px;margin-top:10px;}*/
+.title {height:41px;line-height:41px;font-family:'Microsoft YaHei';}
+.content {background-color:white;}
+.inContent {margin-left:30px;}
+.office{ margin-top:20px;}
+.office .more{ margin-top:10px;}
+.office .col-xs-4 a{ margin-bottom:15px; display:block; text-align:center; padding-top:5px; width:90px; height:100px;border:1px solid #fff;}
+.office .col-xs-4 a:hover{ text-decoration:none; border:1px solid #428BCA; border-radius:4px;}
+.office .col-xs-4 a img{ margin-top:20px;}
+.email{ margin-top:26px;}
+.email .col-xs-4 a{ margin-bottom:20px; display:block; text-align:center; padding-top:5px; width:100px; height:100px; border:1px solid #fff;}
+.email .col-xs-4 a:hover{ text-decoration:none; border:1px solid #428BCA; border-radius:4px;}
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#sortable li { width:49%; float:left; }
+#sortable li:hover{ cursor:move;}
+.OAborder{ margin:1%; border:solid 1px white;height:335px; border:1px solid #EBEBFF; border-radius:4px; padding:10px; background:#fff;}
+.executive{ margin-top:20px;}
+.executive .col-xs-4 a{ margin-bottom:15px; display:block; text-align:center; padding-top:5px; width:90px; height:100px; border:1px solid #fff;}
+.executive .col-xs-4 a div { height:75px;}
+.executive .col-xs-4 a:hover{ text-decoration:none; border:1px solid #428BCA; border-radius:4px;}
+.executive .more{ margin-top:10px;}
+.notice .col-xs-4 a{ display:block; text-align:center; width:75px; height:86px;border:1px solid #fff; padding-top:5px;}
+.notice .col-xs-4 a:hover{ text-decoration:none; border:1px solid #428BCA; border-radius:4px;}
+.notice .more{ margin-top:7px;}
+.clear {clear:both;}
+
+/*table布局*/
+.table {border:1px solid grey;width:100%;}
+.table tr {height:30px;}
+.table tr td{border-bottom:1px solid grey;border-right:1px solid grey;}
+.trhead {text-align:center;font-size:30px;font-family:'Microsoft YaHei';}
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuWm9vbWxhLmNu */
+

@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="PayOnline_AlipayNotify, App_Web_iizfjjrm" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

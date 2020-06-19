@@ -1,0 +1,173 @@
+﻿<!--[if lt IE 9]>  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>    <div style='width:740px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>      <div style='width:375px; float: left; font-family: Arial, sans-serif;'>        <div style='font-size: 14px; font-weight: bold; margin-top: 22px;'>当前浏览器版本过低-请使用IE9或360以上版本浏览器！</div>        <div style='font-size: 12px; margin-top: 6px; line-height: 16px;'>为获得更优的体验请升级浏览器（360浏览器请选择极速模式）：</div>      </div>      <div style='width: 75px; float: left;'><a href='http://dlsw.baidu.com/sw-search-sp/soft/51/11843/Firefox-setup30.0.0.5269.1402457016.exe' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>      <div style='width: 75px; float: left;'><a href='http://dlsw.baidu.com/sw-search-sp/soft/3c/23356/BOIE9_ZHCN_BO0085_WIN7.2197728620.EXE' target='_blank'><img src='http://code.zoomla.cn/ie9.jpg' style='border: none;' alt='下载最新Internet Explorer'/></a></div>      <div style='width: 73px; float: left;'><a href='http://down.360safe.com/cse/360cse_7.5.3.182.exe' target='_blank'><img src='/Template/u8/style/images/360iyjtkkd.png' style='border: none;' alt='360se6_6.3.1.196'/></a></div>      <div style='float: left;'><a href='http://dlsw.baidu.com/sw-search-sp/soft/9d/14744/ChromeStandaloneSetup35.0.1916.114.1401167998.exe' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>    </div>  </div>  <![endif]-->
+
+
+
+{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+</style>
+</head>
+<body>
+<div class="col-md-8 col-lg-8 col-sm-8 col-xs-12">
+<div class="User_imgs margintop10">
+
+
+<div class="col-md-2 col-lg-2 col-sm-2 col-xs-12">
+ {ZL.Label id="输出当前登录用户头像"/}
+<div class="content_a" style="margin-top:20px;"></div>
+
+<li><a href="/user/info/UserBase.aspx" target="main_right">完善资料</a></li>
+<div class="content_a" style="margin-top:10px;"></div>
+<li><a href="/user/ChangPSW.aspx"  target="main_right">修改密码</a></li>
+ </div>
+
+
+
+<div class="col-md-10 col-lg-10 col-sm-10 col-xs-12">
+<ul class="line26">
+<li><em>{ZL:GetuserName()/}</em>,欢迎来到U8商道网</li>
+
+<li>会员类型：<script>
+var GroupID='{ZL.Label id="输出会员组ID" /}';
+if(GroupID==1){
+document.write("普通会员");}
+else{
+document.write("企业会员");
+}
+</script> 
+  &nbsp;&nbsp;&nbsp;&nbsp;  当前余额：{ZL.Label id="输出当前用户金额"/} 元
+</li>
+<li>
+复制链接邀请好友：
+<input type="text"  id="biao1" class="form-control margintop10"  value="{$SiteName/}  {$SiteURL/}/User/Register.aspx?Parentid={ZL:GetuserID()/}" >
+<input type="button" onClick="copyUrl2()" class="btn btn-danger margintop10" value="点击复制代码" />
+ </li>
+ </ul>
+ </div>
+ <div class="clearfix"></div>
+</div>
+
+<script type="text/javascript"> 
+function copyUrl2() 
+{ 
+var Url2=document.getElementById("biao1"); 
+Url2.select(); //选择对象 
+document.execCommand("Copy"); //执行浏览器复制命令 
+alert("已复制好，可贴粘。"); 
+} 
+</script> 
+
+
+ 
+
+<ul class="nav nav-tabs margintop10 padding0" role="tablist">
+<li class="active"><a href="#home" role="tab" data-toggle="tab">猜您喜欢</a></li>
+<li><a href="#profile" role="tab" data-toggle="tab">关注最多</a></li>
+<li><a href="#home1"  role="tab" data-toggle="tab">U8动态</a></li>
+<li><a href="#home2"  role="tab" data-toggle="tab">最新促销</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+<div class="tab-pane active" id="home">
+<ul class="padding0">
+{ZL.Label id="输出猜您喜欢的项目列表" NodeID="2" ShowNum="12" TitleNum="24"/}
+</ul>
+</div>
+<div class="tab-pane" id="profile"> 
+<ul class="padding0">
+{ZL.Label id="关注最多的项目" NodeID="2" ShowNum="12" TitleNum="30" /}
+</ul>
+</div>
+
+
+
+<div class="tab-pane" id="home1">
+<div class="recommand">
+<div class="content_a" style="margin-top:10px;"></div>
+<ul class="padding0" id="brand">
+{ZL.Label id="输出指定节点标题_无时间属性" NodeID="33" TitleNum="94" ShowNum="30"/}
+</ul>
+</div>
+</div>
+
+
+
+
+<div class="content_a" style="margin-top:10px;"></div>
+<div class="tab-pane" target="_blank"  id="home2">
+
+<ul class="padding0">
+{ZL.Label id="文章缩略图_带标题简介_响应式带推荐"  NodeID="42" TitleNum="30" ShowNum="10" synNum="0" /}
+</ul>
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+ <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+       快速导航
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body a_lis">
+  <!-- Standard button -->
+<a  href="/Class_3/Default.aspx?pid=574&GName={$GetUrlencode(服饰鞋包)$}" target="_blank" class="btn btn-info">服饰鞋包</a>
+<a  href="/Class_3/Default.aspx?pid=593&GName={$GetUrlencode(美容养生)$}" target="_blank" class="btn btn-info">美容养生</a>
+<a  href="/Class_3/Default.aspx?pid=584&GName={$GetUrlencode(特色餐饮)$}" target="_blank" class="btn btn-info">特色餐饮</a>
+<a  href="/Class_3/Default.aspx?pid=602&GName={$GetUrlencode(饰品玩具)$}" target="_blank" class="btn btn-info">饰品玩具</a>
+<a  href="/Class_3/Default.aspx?pid=607&GName={$GetUrlencode(家居装饰)$}" target="_blank" class="btn btn-info">家居装饰</a>
+<a  href="/Class_3/Default.aspx?pid=618&GName={$GetUrlencode(名酒代理)$}" target="_blank" class="btn btn-info">名酒代理</a>
+<a  href="/Class_3/Default.aspx?pid=625&GName={$GetUrlencode(新锐连锁)$}" target="_blank" class="btn btn-info">新锐连锁</a>
+<a  href="/Class_3/Default.aspx?pid=634&GName={$GetUrlencode(网络创业)$}" target="_blank" class="btn btn-info">网络创业</a>
+<a  href="/Class_9/Default.aspx" target="_blank" class="btn btn-info">视频专区</a>
+<a  href="/Class_1/Default.aspx" target="_blank" class="btn btn-info">创业资讯</a>
+<a  href="http://www.1ytgw.com/" target="_blank" class="btn btn-info">一元淘购</a>
+<a  href="/Class_1/Default.aspx" target="_blank" class="btn btn-info">U8导航站</a>
+        </div>
+    </div>
+  </div>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+       <span><a href="/Class_1/Default.aspx">更多</a></span>创业资讯
+      </h4>
+    </div>
+    <div  class="panel-collapse collapse in">
+      <div class="panel-body line26">
+  <!-- Standard button -->
+ <ul>
+ {ZL.Label id="输出指定节点标题_无时间属性" NodeID="1" TitleNum="30" ShowNum="13" /}
+  </ul>
+    </div>
+    </div>
+  </div>
+</div>
+ 
+ </body>
+</html>

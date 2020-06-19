@@ -1,0 +1,39 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+</style>
+</head>
+<body>
+<div class="tables_u margintop10">
+<div class="alert alert-warning" role="alert"> 
+<ul> <li>成功邀请{ZL.Label id="统计推广商家数"/}位商家入驻U8商道</li>
+<li>
+复制链接邀请好友：
+<input type="text"  id="biao1" class="form-control margintop10"  value="{$SiteName/}  {$SiteURL/}/User/Register.aspx?Parentid={ZL:GetuserID()/}" >
+<input type="button" onClick="copyUrl2()" class="btn btn-danger margintop10" value="点击复制代码" />
+</li>
+<li>初级代理：10%，商家后期续费享受提成2%，推广累计达到2000元业绩自动升级为（VIP代理） </li>
+<li>VIP代理：20%，商家后期续费享受提成4%， 推广累计达到5000元业绩自动升级为（钻石代理） </li>
+<li>钻石代理：35%  商家后期续费享受提成8%， 推广累计达到10000元业绩自动升级为（至尊代理） </li>
+<li>至尊代理：50%  商家后期续费享受提成10% </li>
+</ul>
+</div>
+<table width="100%">
+<tr><th>商家名称</th><th>代理商名称</th><th>价格 </th><th>佣金</th></tr>
+{ZL.Label id="输出推广的商家列表分页" ShowNum="10" /}
+</table>
+</div>
+</body>
+</html>

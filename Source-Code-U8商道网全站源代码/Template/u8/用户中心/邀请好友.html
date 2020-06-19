@@ -1,0 +1,36 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+</style>
+</head>
+<body>
+ <div class="tables_u margintop10">
+ <div class="alert alert-warning" role="alert"> 
+<ul> <li>目前成功邀请{ZL.Label id="统计推广商家数"/}位好友</li>
+<li>
+复制链接邀请好友：
+<input type="text"  id="biao1" class="form-control margintop10"  value="{$SiteName/}  {$SiteURL/}/User/Register.aspx?Parentid={ZL:GetuserID()/}" >
+<input type="button" onClick="copyUrl2()" class="btn btn-danger margintop10" value="点击复制代码" />
+</li>
+<li><strong>温馨提示：</strong>邀请好友注册并邮箱认证赠送0.2元</li>
+</ul>
+</div>
+<table width="100%">
+<tr><th>用户名</th><th>时间</th><th>邀请人</th><th>收入</th></tr>
+{ZL.Label id="输出邀请好友列表_分页" ShowNum="10" /}
+</table>
+</div>
+</body>
+</html>

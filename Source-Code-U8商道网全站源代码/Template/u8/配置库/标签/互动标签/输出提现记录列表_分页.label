@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>779</LabelID>
+    <LabelName>输出提现记录列表_分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>互动标签</LabelCate>
+    <LabelDesc>ZL_Pub_txsq分页标签</LabelDesc>
+    <LabelParam>ShowNum,10,1,显示数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_Pub_txsq</LabelTable>
+    <LabelField>BCode,Blanks,Person,Price,PubAddTime,PubUserName,Tel,zhi,Pubstarts</LabelField>
+    <LabelWhere>PubUserID='{ZL:GetuserID()/}'</LabelWhere>
+    <LabelOrder>PubAddTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;tr&gt;
+&lt;td&gt;{Field="PubUserName"/}&lt;/td&gt;
+&lt;td&gt;{Field="Blanks"/}&lt;/td&gt;
+&lt;td&gt;{Field="zhi"/}&lt;/td&gt;
+&lt;td&gt;{Field="BCode"/}&lt;/td&gt;
+&lt;td&gt;{Field="Tel"/}&lt;/td&gt;
+&lt;td&gt;{Field="Price"/}&lt;/td&gt;
+&lt;td&gt;{ZL:FormatDate({Field="PubAddTime"/},yyyy-MM-dd)/}&lt;/td&gt;
+&lt;td&gt;
+{Field="Pubstarts"/} 
+&lt;/td&gt;
+&lt;/tr&gt;
+{/Repeate}
+{ZL.Page/}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>u8</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

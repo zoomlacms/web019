@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="ZoomLa.WebSite.User.Info.ShowModel, App_Web_r0fk1k5q" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

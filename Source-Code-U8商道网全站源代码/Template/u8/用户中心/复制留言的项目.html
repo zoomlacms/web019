@@ -1,0 +1,68 @@
+﻿{ZL.Source id="节点栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<title>{SField sid="节点栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#bs-example .meuses{SField sid="节点栏目信息数据源" FD="NodeID" page="0"/} a{ color:#FF0;}
+</style>
+</head>
+<body>
+<div class="User_imgs margintop10">
+<div class="col-md-1 col-lg-1 col-sm-1 col-xs-12">
+ {ZL.Label id="输出当前登录用户头像"/}
+ </div>
+<div class="col-md-10 col-lg-10 col-sm-8 col-xs-12">
+<ul class="line26">
+<li><em>{ZL:GetuserName()/}</em>,欢迎来到<strong>U8商道网</strong></li>
+<li><a href="/user/info/UserBase.aspx" target="main_right">完善资料</a><a href="/user/ChangPSW.aspx"  target="main_right">修改密码</a></li>
+<li>会员类型：企业会员</li>
+ </ul>
+ </div>
+ <div class="clearfix"></div>
+</div>
+<div class="tab-pane active" id="home">
+<ul class="padding0">
+{ZL.Label id="关注最多的项目" NodeID="2" ShowNum="12" TitleNum="30" /}
+</ul>
+</div>
+
+
+<ul class="nav nav-tabs margintop10" role="tablist" style="display:none;">
+<li class="active"><a href="#home" role="tab" data-toggle="tab">猜您喜欢</a></li>
+<li><a href="#profile" role="tab" data-toggle="tab">关注最多</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content" style="display:none;">
+<div class="tab-pane active" id="home">
+<ul>
+{ZL.Label id="输出猜您喜欢的项目列表" NodeID="2" ShowNum="12" TitleNum="30"/}
+</ul>
+</div>
+<div class="tab-pane" id="profile"> 
+<ul>
+{ZL.Label id="关注最多的项目" NodeID="2" ShowNum="12" TitleNum="30" /}
+</ul>
+</div>
+</div>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </body>
+</html>
